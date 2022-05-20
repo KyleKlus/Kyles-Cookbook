@@ -1,7 +1,8 @@
 ---
-title: Cooking 🗂️
+title: Cooking Ideas
 created: Tu 04.01.2022, 17:06:11
 author: Kyle Klus
+categories: recipes etc
 tags:
   - status/not_tree
   - status/needs_work
