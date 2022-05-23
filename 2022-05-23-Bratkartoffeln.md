@@ -10,7 +10,7 @@ aliases:
   - 
 ---
 
-## Zutaten
+## Zutaten (ca. 2 Portionen)
 
 | Menge            | Zutaten                        |
 | ---------------- | ------------------------------ |
