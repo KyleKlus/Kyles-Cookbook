@@ -5,7 +5,6 @@ author: Kyle Klus
 categories: recipes meals
 tags:
   - status/not_tree
-  - status/needs_work
 
 aliases:
   - 
