@@ -39,4 +39,3 @@ aliases:
 9. Teig in der Hand zu einem Fladen formen / drücken.
 10. Den Teig am Rand festhalten und dabei am Rand entlang gehen, sodass der Teig sich durch sein eigenes Gewicht lang zieht. Vorsicht!!!: Hierbei den Teig nicht zu dünn werden lassen, sonst reißt er, hier lieber wenn es nicht so funktioniert den Teig auf das Blech legen und dort ihn in eine ca. 28cm Scheibe durch drücken und ziehen formen.
 11. Nun die Pizza belegen und solange in den Ofen packen, bis sie und der Käse braun ist (ca. 10 min). Zu guter Letzt noch Oregano drüber streuen.
-
