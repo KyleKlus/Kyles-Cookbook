@@ -1,23 +1,45 @@
 ---
-title: Cooking Ideas
-created: Tu 04.01.2022, 17:06:11
+title: Cooking Recipes
+created: Tu 22.05.2022, 17:06:11
 author: Kyle Klus
-categories: recipes etc
+categories: recipes
+layout: post_moc
 backlink: /
 tags:
   - status/not_tree
   - status/needs_work
 
 aliases:
-  - 
+  -
 ---
-## New Recipes
 
-- [Kameruner](http://www.holozaen.de/gekrempelte-krapfen-kameruner-rezept/)
+## Herzhafte Gerichte
+
+- [Bratkartoffeln](/posts/recipes/meals/Bratkartoffeln.html)
+- [Kartoffelblech](/posts/recipes/meals/Kartoffelblech.html)
+- [Kartoffelsuppe](/posts/recipes/meals/Kartoffelsuppe.html)
+- [Pellkartoffeln](/posts/recipes/meals/Pellkartoffeln.html)
+- [Spiegelei mit Kartoffeln und Spinat](/posts/recipes/meals/Spiegelei-mit-Kartoffeln-und-Spinat.html)
+- [Omlette](/posts/recipes/meals/Omlette.html)
+- [Ciabatta mit Schweinefilet](/posts/recipes/meals/Ciabatta-mit-Schweinefilet.html)
+- [Griechischer Reis Auflauf](/posts/recipes/meals/Griechischer-Reis-Auflauf.html)
+- [Tomatensoße Grundrezept](/posts/recipes/meals/Tomatensoße-Grundrezept.html)
+- [Pasta mit Tomatensoße](/posts/recipes/meals/Pasta-mit-Tomatensoße.html)
+- [Pasta mit Pilz-Sahnesoße](/posts/recipes/meals/Pasta-mit-Pilz-Sahnesoße.html)
+- [Pizza (einfache Variante)](/posts/recipes/meals/Pizza-Einfache-Variante.html)
+- [Pizza (komplexe Variante)](/posts/recipes/meals/Pizza-Komplexe-Variante.html)
+- [Chilli con Carne](/posts/recipes/meals/Chilli-Con-Carne.html)
+
+## Süße Gerichte
+
+- [Kartoffelpuffer](/posts/recipes/meals/sweet/Kartoffelpuffer.html)
+- [Eierkuchen](/posts/recipes/meals/sweet/Eierkuchen.html)
+
+## Interesting New Recipes
+
 - [Snacks](https://www.youtube.com/watch?v=G5NEwx6KqPM)
 - [Paella](https://www.youtube.com/watch?v=WfYjmrH9gSw)
 - [Mozarella](https://www.youtube.com/watch?v=AXyNmJDi37U)
-- [Cinnamon Buns](https://www.youtube.com/watch?v=wNiyp89pTi0)
 - [Crusty Bread Rolls](https://www.youtube.com/watch?v=ILjX9xQVQso)
 - [Scrambled Eggs](https://www.youtube.com/watch?v=ONYflj0I2QI)
 - [Hollandaise Sauce](https://www.youtube.com/watch?v=pkzRzrxYtMo)
@@ -37,11 +59,9 @@ aliases:
 - [Omelette](https://www.youtube.com/watch?v=KwnhzStEmpU)
 - [Kartoffel Omelette](https://www.youtube.com/watch?v=COP2hnoAEQg)
 - [Rosinen Essig](https://www.youtube.com/watch?v=V9nfVu9zGxk)
-- [Doughnut ausprobieren](https://www.youtube.com/watch?v=DUaCTeNmY7o)
-- [Hefeteig](https://www.chefkoch.de/rezepte/171681074596037/Suesser-Hefeteig-von-einer-Baeckerin-bekommen.html)
 - [Mushroom recepies](https://www.youtube.com/watch?v=F_M04Gi5ckc)
 
-## New Techniques
+## Interesting New Techniques
 
 - [Braising stuff](https://www.youtube.com/watch?v=EA2Mx1m7NAI)
 - [Egg Drop](https://www.youtube.com/watch?v=jz2KcqzP7kM)
