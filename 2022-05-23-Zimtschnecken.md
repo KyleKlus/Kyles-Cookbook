@@ -2,13 +2,13 @@
 title: Zimtschnecken
 created: Tu 23.05.2022, 17:06:11
 author: Kyle Klus
-categories: recipes pastry
-backlink: /posts/recipes/Recipes.html
+categories: Kyles-Cookbook pastry
+backlink: /posts/kyles-cookbook/Baking-Recipes.html
 tags:
   - status/not_tree
 
 aliases:
-  - 
+  -
 ---
 
 ## Zutaten (ca. ?)
@@ -42,4 +42,3 @@ aliases:
 10. 30 min gehen lassen und für ca. 15 min in den Ofen packen.
 11. Auskühlen lassen und 125 g Puderzucker mit 2 EL Wasser oder **Optional** ca. 1 EL Zitronensaft mischen.
 12. Zuckerguss drüber tröpfeln lassen.
-

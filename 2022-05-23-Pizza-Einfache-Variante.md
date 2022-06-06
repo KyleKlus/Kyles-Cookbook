@@ -2,20 +2,20 @@
 title: Pizza (Einfache Variante)
 created: Tu 23.05.2022, 17:06:11
 author: Kyle Klus
-categories: recipes meals
-backlink: /posts/recipes/Recipes.html
+categories: Kyles-Cookbook meals
+backlink: /posts/kyles-cookbook/Cooking-Recipes.html
 tags:
   - status/not_tree
 
 aliases:
-  - 
+  -
 ---
 
 ## Zutaten (ca. 2 Portionen)
 
 | Menge            | Zutaten                            |
 | ---------------- | ---------------------------------- |
-| 1                | Tomatensoße (siehe [Grundrezept](/posts/recipes/meals/Tomatensoße-Grundrezept.html)) |
+| 1                | Tomatensoße (siehe [Grundrezept](/posts/kyles-cookbook/meals/Tomatensoße-Grundrezept.html)) |
 | 375g             | Mehl                               |
 | 213g             | Lauwarmes Wasser                   |
 | 11g              | Salz                               |

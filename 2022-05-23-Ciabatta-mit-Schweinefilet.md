@@ -2,13 +2,13 @@
 title: Ciabatta mit Schweinefilet
 created: Tu 23.05.2022, 17:07:11
 author: Kyle Klus
-categories: recipes meals
-backlink: /posts/recipes/Recipes.html
+categories: Kyles-Cookbook meals
+backlink: /posts/kyles-cookbook/Cooking-Recipes.html
 tags:
   - status/not_tree
 
 aliases:
-  - 
+  -
 ---
 
 ## Zutaten (ca. 2 Portionen)
@@ -32,4 +32,3 @@ aliases:
 3. Ofen auf 180° Ober- / Unterhitze vorheizen.
 4. Brot horizontal halbieren, und kurz die Innenseite in der Pfanne anbraten.
 5. Brot mit allen Zutaten belegen und für ca. 5-10 min in den Ofen packen.
-

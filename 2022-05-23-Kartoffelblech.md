@@ -2,13 +2,13 @@
 title: Kartoffelblech
 created: Tu 23.05.2022, 17:06:11
 author: Kyle Klus
-categories: recipes meals
-backlink: /posts/recipes/Recipes.html
+categories: Kyles-Cookbook meals
+backlink: /posts/kyles-cookbook/Cooking-Recipes.html
 tags:
   - status/not_tree
 
 aliases:
-  - 
+  -
 ---
 
 ## Zutaten (ca. 4 Portionen)
@@ -35,4 +35,3 @@ aliases:
 5. Tomaten / Paprika zum Hackfleisch dazugeben und für ein paar Minuten auf mittlerer Hitze in der Pfanne köcheln lassen.
 6. Alles auf ein Blech geben und mit Fetakäse bestreuen.
 7. Blech in den Ofen packen bis der Käse leicht braun ist und die Kartoffeln durch sind.
-

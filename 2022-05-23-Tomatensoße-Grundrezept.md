@@ -2,13 +2,13 @@
 title: Tomatensoße (Grundrezept)
 created: Tu 23.05.2022, 17:13:11
 author: Kyle Klus
-categories: recipes meals
-backlink: /posts/recipes/Recipes.html
+categories: Kyles-Cookbook meals
+backlink: /posts/kyles-cookbook/Cooking-Recipes.html
 tags:
   - status/not_tree
 
 aliases:
-  - 
+  -
 ---
 
 ## Zutaten (ca. 2 Portionen)
@@ -29,4 +29,3 @@ aliases:
 2. Olivenöl in den Topf geben und die Zwiebel leicht anschwitzen.
 3. Tomaten und Knoblauch in den Topf geben, würzen (etwas mehr Salz) und bei niedriger Hitze für ca. 10-20 min köcheln lassen, bis die Konsistenz etwas fester ist
 4. Die Konsistenz mit Tomatenmark so verändern, wie man die Soße gerne hätte und vllt. nachwürzen.
-

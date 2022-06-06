@@ -2,13 +2,13 @@
 title: Ungarische Plätzchen
 created: Tu 23.05.2022, 17:06:11
 author: Kyle Klus
-categories: recipes cookies
-backlink: /posts/recipes/Recipes.html
+categories: Kyles-Cookbook cookies
+backlink: /posts/kyles-cookbook/Baking-Recipes.html
 tags:
   - status/not_tree
 
 aliases:
-  - 
+  -
 ---
 
 ## Zutaten (ca. 30-40 Stück)
@@ -35,4 +35,3 @@ aliases:
 7. Die Plätzchen mit einer Mischung aus 1 Eigelb und 2 EL Milch bestreichen.
 8. Für ca. 10-12 min im Ofen backen.
 9. Auskühlen lassen und mit Puderzucker bestreuen.
-

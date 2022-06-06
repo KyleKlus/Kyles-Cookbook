@@ -2,13 +2,13 @@
 title: Eierkuchen
 created: Tu 23.05.2022, 17:06:11
 author: Kyle Klus
-categories: recipes meals sweet
-backlink: /posts/recipes/Recipes.html
+categories: Kyles-Cookbook meals sweet
+backlink: /posts/kyles-cookbook/Cooking-Recipes.html
 tags:
   - status/not_tree
 
 aliases:
-  - 
+  -
 ---
 
 ## Zutaten (ca. 8 Eierkuchen)
@@ -27,4 +27,3 @@ aliases:
 2. Eier und Milch hinzugeben und Rühren, bis keine Mehlklümpchen mehr vorhanden sind.
 3. Eierkuchen braten (eine Kelle pro Eierkuchen).
 4. Mit Marmelade oder Zimt-Zucker Gemisch bestreichen.
-

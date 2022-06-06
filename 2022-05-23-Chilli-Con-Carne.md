@@ -2,13 +2,13 @@
 title: Chilli (con Carne)
 created: Tu 23.05.2022, 17:06:11
 author: Kyle Klus
-categories: recipes meals
-backlink: /posts/recipes/Recipes.html
+categories: Kyles-Cookbook meals
+backlink: /posts/kyles-cookbook/Cooking-Recipes.html
 tags:
   - status/not_tree
 
 aliases:
-  - 
+  -
 ---
 
 ## Zutaten (ca. 2 Portionen)
@@ -40,4 +40,3 @@ aliases:
 6. Mit Tomatenmark auf die gewünschte Konsistenz bringen, würzen und für ca. 10-20 min bei mittlerer Stufe kochen lassen (Umrühren nicht vergessen).
 7. **Optional** Reis kochen.
 8. Servieren.
-

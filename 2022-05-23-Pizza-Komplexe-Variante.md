@@ -2,13 +2,13 @@
 title: Pizza Komplexe Variante
 created: Tu 23.05.2022, 17:06:11
 author: Kyle Klus
-categories: recipes meals
-backlink: /posts/recipes/Recipes.html
+categories: Kyles-Cookbook meals
+backlink: /posts/kyles-cookbook/Cooking-Recipes.html
 tags:
   - status/not_tree
 
 aliases:
-  - 
+  -
 ---
 
 ## Zutaten (ca. 4 Portionen)
@@ -49,10 +49,7 @@ aliases:
 6. Teig in einen straffen Ball formen (weiteres Mehl mit untermengen, falls er zu feucht ist), mit Öl und einem feuchtem Handtuch bedecken und 1 h liegen lassen.
 7. Tomatensoße herstellen.
 8. In ca. 280 g Bälle teilen und auf das Backblech ausbreiten.
-9. Mit Frischhaltefolie abdecken, 1-2 h warten. 
+9. Mit Frischhaltefolie abdecken, 1-2 h warten.
 10. Teigbälle kräftig einmehlen, dann die Pizza formen und auf das Backblech legen.
 11. Ofen auf höchster Temperatur vorheizen.
 12. Nun belegen und in den Ofen schieben.
-
-
-

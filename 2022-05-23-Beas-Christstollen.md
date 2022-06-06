@@ -2,13 +2,13 @@
 title: Beas saftiger Christstollen
 created: Tu 23.05.2022, 17:06:11
 author: Kyle Klus
-categories: recipes cake
-backlink: /posts/recipes/Recipes.html
+categories: Kyles-Cookbook cake
+backlink: /posts/kyles-cookbook/Baking-Recipes.html
 tags:
   - status/not_tree
 
 aliases:
-  - 
+  -
 ---
 
 ## Zutaten (ca. 2 Portionen)
@@ -62,6 +62,3 @@ aliases:
 20. Steche nun mit dem Spieß viele kleine Löcher in den Stollen.
 21. Schmelze 100 g Butter und verteile vollständig diese über die Stollen.
 22. Streue nun ein bisschen normalen Zucker und dann Puderzucker über die Stollen.
-
-
-

@@ -2,20 +2,20 @@
 title: Pasta mit Tomatensoße
 created: Tu 23.05.2022, 17:06:11
 author: Kyle Klus
-categories: recipes meals
-backlink: /posts/recipes/Recipes.html
+categories: Kyles-Cookbook meals
+backlink: /posts/kyles-cookbook/Cooking-Recipes.html
 tags:
   - status/not_tree
 
 aliases:
-  - 
+  -
 ---
 
 ## Zutaten (ca. 3-4 Portionen)
 
 | Menge            | Zutaten                         |
 | ---------------- | ------------------------------- |
-| 2                | Tomatensoße (siehe [Grundrezept](/posts/recipes/meals/Tomatensoße-Grundrezept.html)) |
+| 2                | Tomatensoße (siehe [Grundrezept](/posts/kyles-cookbook/meals/Tomatensoße-Grundrezept.html)) |
 | -                | Käse                            |
 | 1                | Lauchzwiebeln                   |
 | 1                | Paprika **Optional**            |
@@ -33,4 +33,3 @@ aliases:
 5. Nudeln/Spaghetti kochen und in die Schüsseln geben.
 6. Tomatensoße drüber geben und Käse drüber streuen.
 7. Zu guter Letzt ein paar grüne Lauchzwiebeln und die optionalen Oliven drüber streuen.
-

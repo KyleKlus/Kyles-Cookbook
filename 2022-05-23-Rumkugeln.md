@@ -2,13 +2,13 @@
 title: Rumkugeln
 created: Tu 23.05.2022, 17:06:11
 author: Kyle Klus
-categories: recipes candy
-backlink: /posts/recipes/Recipes.html
+categories: Kyles-Cookbook candy
+backlink: /posts/kyles-cookbook/Baking-Recipes.html
 tags:
   - status/not_tree
 
 aliases:
-  - 
+  -
 ---
 
 ## Zutaten (ca. 20 Stück)
@@ -30,4 +30,3 @@ aliases:
 4. Hände in kaltes Wasser tauchen und mit Hilfe eines kleinen Löffels die Masse in kleine Kugeln formen.
 5. Kugeln nun jeweils in Schokostreuseln wälzen.
 6. Alle Kugeln für 1 h in den Kühlschrank stellen.
-
