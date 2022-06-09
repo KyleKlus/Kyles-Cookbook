@@ -16,6 +16,4 @@ aliases:
 ## Interesting New Recipes
 
 - [Kameruner](http://www.holozaen.de/gekrempelte-krapfen-kameruner-rezept/)
-- [Cinnamon Buns](https://www.youtube.com/watch?v=wNiyp89pTi0)
 - [Doughnut Teig](https://www.youtube.com/watch?v=DUaCTeNmY7o)
-- [Hefeteig](https://www.chefkoch.de/rezepte/171681074596037/Suesser-Hefeteig-von-einer-Baeckerin-bekommen.html)

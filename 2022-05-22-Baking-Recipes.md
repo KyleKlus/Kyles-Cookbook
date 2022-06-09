@@ -17,6 +17,7 @@ aliases:
 
 - [Kalter Hund](/posts/kyles-cookbook/cake/Kalter-Hund.html)
 - [Beas saftiger Christstollen](/posts/kyles-cookbook/cake/Beas-Christstollen.html)
+- [Hefezopf mit Füllung](/posts/kyles-cookbook/cake/Hefezopf-mit-Füllung.html)
 
 ## Gebäck
 
