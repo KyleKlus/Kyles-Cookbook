@@ -23,7 +23,6 @@ aliases:
 - [Hollandaise Sauce](https://www.youtube.com/watch?v=pkzRzrxYtMo)
 - [Ravioli](https://www.youtube.com/watch?v=scwtoKAikck)
 - [Babka](https://www.youtube.com/watch?v=PHheRDVn3e8)
-- [Pickled Red Onions](https://www.youtube.com/watch?v=K4HbmPu_M_4)
 - [Spices 101](https://www.youtube.com/watch?v=utxce8Q3x_I)
 - [Pizza  with Biga](https://www.youtube.com/watch?v=LmJuarkrIVw)
 - [Mushroom Soup](https://www.youtube.com/watch?v=vgIplQn92gU)

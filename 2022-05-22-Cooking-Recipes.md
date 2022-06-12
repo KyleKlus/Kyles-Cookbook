@@ -18,6 +18,7 @@ aliases:
 - [Bratkartoffeln](/posts/kyles-cookbook/meals/Bratkartoffeln.html)
 - [Kartoffelblech](/posts/kyles-cookbook/meals/Kartoffelblech.html)
 - [Kartoffelsuppe](/posts/kyles-cookbook/meals/Kartoffelsuppe.html)
+- [Kartoffel Gratin](/posts/kyles-cookbook/meals/Kartoffel-Gratin.html)
 - [Pellkartoffeln](/posts/kyles-cookbook/meals/Pellkartoffeln.html)
 - [Spiegelei mit Kartoffeln und Spinat](/posts/kyles-cookbook/meals/Spiegelei-mit-Kartoffeln-und-Spinat.html)
 - [Omlette](/posts/kyles-cookbook/meals/Omlette.html)
@@ -29,6 +30,7 @@ aliases:
 - [Pizza (einfache Variante)](/posts/kyles-cookbook/meals/Pizza-Einfache-Variante.html)
 - [Pizza (komplexe Variante)](/posts/kyles-cookbook/meals/Pizza-Komplexe-Variante.html)
 - [Chilli con Carne](/posts/kyles-cookbook/meals/Chilli-Con-Carne.html)
+- [Eingelegte Rote Zwiebeln](/posts/kyles-cookbook/meals/Eingelegte-Rote-Zwiebeln.html)
 
 ## Süße Gerichte
 
