@@ -13,23 +13,21 @@ aliases:
 
 ## Zutaten (ca. 2 Portionen)
 
-| Menge            | Zutaten                        |                 |
-| ---------------- | ------------------------------ | --------------- |
-| text             | text                           |                 |
-| column-id-uqw3sa | column-id-xs15qc               | table-id-znpe5i |
-| 1-2              | Zwiebeln                       | row-id-0d566k   |
-| 1                | Lauchzwiebel                   | row-id-e0378v   |
-| 1-2              | Paprika                        | row-id-45gknd   |
-| 1-2              | Knoblauchzehen                 | row-id-u2qe7l   |
-| 1-2 Becher       | Sahne                          | row-id-asjk8e   |
-| 1                | Zucchini oder Obergine         | row-id-t892gp   |
-| -                | Käse                           | row-id-nw5vwi   |
-| -                | Kartoffeln                     | row-id-3eujyo   |
-| -                | Speck oder Salami **Optional** | row-id-aj8g7w   |
-| -                | Salz                           | row-id-ckluwb   |
-| -                | Pfeffer                        | row-id-6hj669   |
-| -                | Paprika-Gewürz                 | row-id-xhvgns   |
-| -                | Rosmarin                       | row-id-oj4ijt   |
+| Menge            | Zutaten                        |
+| ---------------- | ------------------------------ |
+| 1-2              | Zwiebeln                       |
+| 1                | Lauchzwiebel                   |
+| 1-2              | Paprika                        |
+| 1-2              | Knoblauchzehen                 |
+| 1-2 Becher       | Sahne                          |
+| 1                | Zucchini oder Obergine         |
+| -                | Käse                           |
+| -                | Kartoffeln                     |
+| -                | Speck oder Salami **Optional** |
+| -                | Salz                           |
+| -                | Pfeffer                        |
+| -                | Paprika-Gewürz                 |
+| -                | Rosmarin                       |
 
 ## Zubereitung
 
