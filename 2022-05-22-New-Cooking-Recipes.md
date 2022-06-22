@@ -27,6 +27,7 @@ aliases:
 - [Pizza  with Biga](https://www.youtube.com/watch?v=LmJuarkrIVw)
 - [Mushroom Soup](https://www.youtube.com/watch?v=vgIplQn92gU)
 - [Cantonese Scrambled Eggs](https://www.youtube.com/watch?v=ONYflj0I2QI&list=WL&index=21)
+- [Chimichurri](https://www.youtube.com/watch?v=HXesSmxVNMs)
 - [Oyakodon](https://www.youtube.com/watch?v=NcXzpCqKdUA)
 - [Tamago Gohan](https://www.youtube.com/watch?v=nrDLLhqUXdc)
 - [Seitan](https://www.youtube.com/watch?v=yY2YN6krVtk)
