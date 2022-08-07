@@ -4,11 +4,7 @@ created: Tu 23.05.2022, 17:06:11
 author: Kyle Klus
 categories: Kyles-Cookbook meals
 backlink: /posts/kyles-cookbook/Cooking-Recipes.html
-tags:
-  - status/not_tree
-
-aliases:
-  -
+tags: status/not_tree
 ---
 
 ## Zutaten (ca. 2 Portionen)
@@ -16,12 +12,12 @@ aliases:
 | Menge            | Zutaten                            |
 | ---------------- | ---------------------------------- |
 | 1                | Tomatensoße (siehe [Grundrezept](/posts/kyles-cookbook/meals/Tomatensoße-Grundrezept.html)) |
-| 375g             | Mehl                               |
-| 213g             | Lauwarmes Wasser                   |
-| 11g              | Salz                               |
-| 1EL              | Olivenöl                           |
-| 1TL              | Zucker                             |
-| 1Pkg             | Trockenhefe                        |
+| 375 g             | Mehl                               |
+| 213 g             | Lauwarmes Wasser                   |
+| 11 g              | Salz                               |
+| 1 EL              | Olivenöl                           |
+| 1 TL              | Zucker                             |
+| 1 Pkg.             | Trockenhefe                        |
 | -                | Käse                               |
 | -                | Oregano                            |
 | -                | Belag                              |

@@ -4,21 +4,17 @@ created: Tu 23.05.2022, 17:10:11
 author: Kyle Klus
 categories: Kyles-Cookbook meals
 backlink: /posts/kyles-cookbook/Cooking-Recipes.html
-tags:
-  - status/not_tree
-
-aliases:
-  -
+tags: status/not_tree
 ---
 
 ## Zutaten (ca. 2 Portionen)
 
 | Menge            | Zutaten                     |
 | ---------------- | --------------------------- |
-| 500g             | Natur Joghurt               |
+| 500 g             | Natur Joghurt               |
 | 1                | Gurke **Optional**          |
-| 1-2              | Knoblauchzehen **Optional** |
-| 2-3              | Eier **Optional**           |
+| 1 - 2              | Knoblauchzehen **Optional** |
+| 2 - 3              | Eier **Optional**           |
 | -                | Kartoffeln                  |
 | -                | Schnittlauch **Optional**   |
 | -                | Salz                        |

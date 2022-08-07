@@ -4,28 +4,24 @@ created: Tu 23.05.2022, 17:06:11
 author: Kyle Klus
 categories: Kyles-Cookbook meals
 backlink: /posts/kyles-cookbook/Cooking-Recipes.html
-tags:
-  - status/not_tree
-
-aliases:
-  -
+tags: status/not_tree
 ---
 
 ## Zutaten (ca. 4 Portionen)
 
 | Menge            | Zutaten für Poolish |
 | ---------------- | ------------------- |
-| 200g             | Lauwarmes Wasser    |
-| 5g               | Honig               |
-| 1Pkg             | Trockenhefe         |
-| 200g             | Mehl                |
+| 200 g             | Lauwarmes Wasser    |
+| 5 g               | Honig               |
+| 1 Pkg.             | Trockenhefe         |
+| 200 g             | Mehl                |
 
-| Menge            | Restliche Zutaten               |
+| Menge            | Zutaten für die Pizza              |
 | ---------------- | ------------------------------- |
 | 1                | Poolish                         |
-| 500g             | Mehl                            |
-| 300g             | Wasser                          |
-| 20g              | Salz                            |
+| 500 g             | Mehl                            |
+| 300 g             | Wasser                          |
+| 20 g              | Salz                            |
 | 1                | Tomatensoße (siehe Grundrezept) |
 | -                | Belag                           |
 | -                | Oregano                         |

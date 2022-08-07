@@ -5,12 +5,7 @@ author: Kyle Klus
 categories: Kyles-Cookbook
 layout: post_moc
 backlink: /Kyles-Cookbook.html
-tags:
-  - status/not_tree
-  - status/needs_work
-
-aliases:
-  -
+tags: status/not_tree 
 ---
 
 ## Kuchen

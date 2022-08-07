@@ -4,11 +4,7 @@ created: Tu 23.05.2022, 17:09:11
 author: Kyle Klus
 categories: Kyles-Cookbook meals
 backlink: /posts/kyles-cookbook/Cooking-Recipes.html
-tags:
-  - status/not_tree
-
-aliases:
-  -
+tags: status/not_tree
 ---
 
 ## Zutaten (ca. 4-5 Portionen)

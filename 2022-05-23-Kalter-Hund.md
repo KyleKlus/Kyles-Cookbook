@@ -4,20 +4,16 @@ created: Tu 23.05.2022, 17:06:11
 author: Kyle Klus
 categories: Kyles-Cookbook cake
 backlink: /posts/kyles-cookbook/Baking-Recipes.html
-tags:
-  - status/not_tree
-
-aliases:
-  -
+tags: status/not_tree
 ---
 
 ## Zutaten (ca. 1 Kuchen)
 
 | Menge            | Zutaten                        |
 | ---------------- | ------------------------------ |
-| 200g             | Kokosfett (Palmin)             |
-| 250g             | Butterkekse                    |
-| 400g             | Kuvertüre                      |
+| 200 g             | Kokosfett (Palmin)             |
+| 250 g             | Butterkekse                    |
+| 400 g             | Kuvertüre                      |
 
 ## Zubereitung
 

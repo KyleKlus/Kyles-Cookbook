@@ -4,21 +4,17 @@ created: Tu 23.05.2022, 17:06:11
 author: Kyle Klus
 categories: Kyles-Cookbook meals
 backlink: /posts/kyles-cookbook/Cooking-Recipes.html
-tags:
-  - status/not_tree
-
-aliases:
-  -
+tags: status/not_tree
 ---
 
 ## Zutaten (ca. 4 Portionen)
 
 | Menge            | Zutaten                     |
 | ---------------- | --------------------------- |
-| 1-2              | Tomaten (oder eine Paprika) |
+| 1 - 2              | Tomaten (oder eine Paprika) |
 | 2                | Knoblauchzehen              |
-| 250g             | Fetakäse                    |
-| 500g             | Hackfleisch                 |
+| 250 g             | Fetakäse                    |
+| 500 g             | Hackfleisch                 |
 | -                | Kartoffeln                  |
 | -                | Basilikum                   |
 | -                | Oregano                     |

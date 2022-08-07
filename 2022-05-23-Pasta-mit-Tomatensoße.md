@@ -4,11 +4,7 @@ created: Tu 23.05.2022, 17:06:11
 author: Kyle Klus
 categories: Kyles-Cookbook meals
 backlink: /posts/kyles-cookbook/Cooking-Recipes.html
-tags:
-  - status/not_tree
-
-aliases:
-  -
+tags: status/not_tree
 ---
 
 ## Zutaten (ca. 3-4 Portionen)
@@ -21,7 +17,7 @@ aliases:
 | 1                | Paprika **Optional**            |
 | 1                | Zucchini **Optional**           |
 | 1                | Aubergine **Optional**          |
-| 500g             | Hackfleisch **Optional**        |
+| 500 g             | Hackfleisch **Optional**        |
 | -                | Oliven **Optional**             |
 
 ## Zubereitung

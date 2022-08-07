@@ -4,28 +4,24 @@ created: Tu 23.05.2022, 17:06:11
 author: Kyle Klus
 categories: Kyles-Cookbook candy
 backlink: /posts/kyles-cookbook/Baking-Recipes.html
-tags:
-  - status/not_tree
-
-aliases:
-  -
+tags: status/not_tree
 ---
 
 ## Zutaten (ca. 20 Stück)
 
 | Menge            | Zutaten                  |
 | ---------------- | ------------------------ |
-| 100g             | Butter                   |
-| 200g             | Vollmilchschokolade      |
-| 100g             | Zartbitterschokolade     |
-| 100g             | Puderzucker              |
-| 6-8EL            | Rum                      |
+| 100 g             | Butter                   |
+| 200 g             | Vollmilchschokolade      |
+| 100 g             | Zartbitterschokolade     |
+| 100 g             | Puderzucker              |
+| 6 - 8 EL            | Rum                      |
 | -                | Vollmilch-Schokostreusel |
 
 ## Zubereitung
 
-1. 100g Butter schaumig rühren und 100g Puderzucker durch ein Sieb hinzugeben und unterrühren.
-2. 300g Schokolade in einem Wasserbad schmelzen und auch hinzugeben.
+1. 100 g Butter schaumig rühren und 100 g Puderzucker durch ein Sieb hinzugeben und unterrühren.
+2. 300 g Schokolade in einem Wasserbad schmelzen und auch hinzugeben.
 3. 6-8 EL hinzugeben, alles gut verrühren und für 1 h in den Kühlschrank packen.
 4. Hände in kaltes Wasser tauchen und mit Hilfe eines kleinen Löffels die Masse in kleine Kugeln formen.
 5. Kugeln nun jeweils in Schokostreuseln wälzen.

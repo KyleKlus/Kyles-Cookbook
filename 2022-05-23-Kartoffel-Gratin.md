@@ -4,22 +4,18 @@ created: Tu 23.05.2022, 17:06:11
 author: Kyle Klus
 categories: Kyles-Cookbook meals
 backlink: /posts/kyles-cookbook/Cooking-Recipes.html
-tags:
-  - status/not_tree
-
-aliases:
-  -
+tags: status/not_tree
 ---
 
 ## Zutaten (ca. 2 Portionen)
 
 | Menge            | Zutaten                        |
 | ---------------- | ------------------------------ |
-| 1-2              | Zwiebeln                       |
+| 1 - 2              | Zwiebeln                       |
 | 1                | Lauchzwiebel                   |
-| 1-2              | Paprika                        |
-| 1-2              | Knoblauchzehen                 |
-| 1-2 Becher       | Sahne                          |
+| 1 - 2              | Paprika                        |
+| 1 - 2              | Knoblauchzehen                 |
+| 1 - 2 Becher       | Sahne                          |
 | 1                | Zucchini oder Obergine         |
 | -                | Käse                           |
 | -                | Kartoffeln                     |

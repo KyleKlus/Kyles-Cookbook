@@ -19,9 +19,9 @@ aliases:
 | 1                | Zucchini         |
 | 1                | Knoblauchzehe    |
 | 2                | Tomaten          |
-| 125g             | Reis             |
-| 200g             | Schafskäse       |
-| 500g             | Hackfleisch      |
+| 125 g             | Reis             |
+| 200 g             | Schafskäse       |
+| 500 g             | Hackfleisch      |
 | -                | Salz             |
 | -                | Pfeffer          |
 | -                | Thymian          |

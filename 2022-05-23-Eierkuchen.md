@@ -4,22 +4,18 @@ created: Tu 23.05.2022, 17:06:11
 author: Kyle Klus
 categories: Kyles-Cookbook meals sweet
 backlink: /posts/kyles-cookbook/Cooking-Recipes.html
-tags:
-  - status/not_tree
-
-aliases:
-  -
+tags: status/not_tree
 ---
 
 ## Zutaten (ca. 8 Eierkuchen)
 
 | Menge            | Zutaten                        |
 | ---------------- | ------------------------------ |
-| 300g             | Mehl                           |
-| 200g             | Zucker                         |
-| 500ml            | Milch                          |
+| 300 g             | Mehl                           |
+| 200 g             | Zucker                         |
+| 500 ml            | Milch                          |
 | 4                | Eier                           |
-| 1Pr.             | Salz                           |
+| 1 Pr.             | Salz                           |
 
 ## Zubereitung
 

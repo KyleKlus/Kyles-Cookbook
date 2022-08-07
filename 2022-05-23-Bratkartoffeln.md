@@ -4,11 +4,7 @@ created: Tu 23.05.2022, 17:06:11
 author: Kyle Klus
 categories: Kyles-Cookbook meals
 backlink: /posts/kyles-cookbook/Cooking-Recipes.html
-tags:
-  - status/not_tree
-
-aliases:
-  -
+tags: status/not_tree
 ---
 
 ## Zutaten (ca. 2 Portionen)
@@ -18,7 +14,7 @@ aliases:
 | 1                | Zwiebel                        |
 | 2                | Tomaten                        |
 | 2                | Knoblauchzehen                 |
-| 2-3              | Eier **Optional**              |
+| 2 - 3              | Eier **Optional**              |
 | -                | Kartoffeln                     |
 | -                | Speck oder Salami **Optional** |
 | -                | Salz                           |
