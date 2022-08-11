@@ -31,3 +31,7 @@ tags: status/not_tree
 
 - [Kartoffelpuffer](/posts/kyles-cookbook/meals/sweet/Kartoffelpuffer.html)
 - [Eierkuchen](/posts/kyles-cookbook/meals/sweet/Eierkuchen.html)
+
+## Sauces
+
+- [Aioli (Knoblauchsauce)](/posts/kyles-cookbook/meals/sauces/Aioli.html)

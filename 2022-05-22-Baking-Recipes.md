@@ -12,6 +12,7 @@ tags: status/not_tree
 
 - [Kalter Hund](/posts/kyles-cookbook/cake/Kalter-Hund.html)
 - [Beas saftiger Christstollen](/posts/kyles-cookbook/cake/Beas-Christstollen.html)
+- [Beas Blechkuchen](/posts/kyles-cookbook/cake/Beas-Blechkuchen.html)
 - [Hefezopf mit Füllung](/posts/kyles-cookbook/cake/Hefezopf-mit-Füllung.html)
 
 ## Gebäck
