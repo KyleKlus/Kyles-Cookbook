@@ -25,12 +25,16 @@ tags: status/not_tree
 - [Pizza (einfache Variante)](/posts/kyles-cookbook/meals/Pizza-Einfache-Variante.html)
 - [Pizza (komplexe Variante)](/posts/kyles-cookbook/meals/Pizza-Komplexe-Variante.html)
 - [Chilli con Carne](/posts/kyles-cookbook/meals/Chilli-Con-Carne.html)
-- [Eingelegte Rote Zwiebeln](/posts/kyles-cookbook/meals/Eingelegte-Rote-Zwiebeln.html)
 
 ## Süße Gerichte
 
 - [Kartoffelpuffer](/posts/kyles-cookbook/meals/sweet/Kartoffelpuffer.html)
 - [Eierkuchen](/posts/kyles-cookbook/meals/sweet/Eierkuchen.html)
+
+## Extra Zutaten
+
+- [Eingelegte Rote Zwiebeln](/posts/kyles-cookbook/meals/Eingelegte-Rote-Zwiebeln.html)
+- [Seitan (Hähnchenfleischersatz)](/posts/kyles-cookbook/meals/Seitan.html)
 
 ## Sauces
 
