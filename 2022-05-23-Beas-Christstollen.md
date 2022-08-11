@@ -47,11 +47,11 @@ tags: status/not_tree
 2. 375 g Mehl, 75 g Zucker, 1 Päckchen Vanillezucker, eine Priese Salz, 2 Messerspitzen Muskatnuss, 2 Messerspitzen Zimt und 2 Messerspitzen Kardamom in einer Schüssel mischen.
 3. Hefe, 150 g sehr weiche Butter und ein Ei hinzufügen und alles sehr gut durchkneten/verrühren (ca. 7 min). Falls der Teig sehr Feucht ist noch ein bisschen Mehl hinzufügen, bis der Teig nicht mehr am Schüsselrand klebt.
 4. Teig 40 min an einem warmen Ort gehen lassen.
-5.  Die Füllung nun in den Teig einarbeiten.
-6.  Teig auf einer bemehlten Arbeitsfläche ausbreiten und nochmals durchkneten.
-7.  Teig in 2 Teile teilen.
-8.  Jeweils die Teighälfte auf Backpapier in ein Quadrat ausbreiten, sodass das Quadrat ca. 2 cm dick ist.
-9.  Nun jeweils 100 g Marzipan in eine länglichen Zylinder kneten und leicht seitlich der Mitte platzieren und vorsichtig in den Teig drücken.
+5. Die Füllung nun in den Teig einarbeiten.
+6. Teig auf einer bemehlten Arbeitsfläche ausbreiten und nochmals durchkneten.
+7. Teig in 2 Teile teilen.
+8. Jeweils die Teighälfte auf Backpapier in ein Quadrat ausbreiten, sodass das Quadrat ca. 2 cm dick ist.
+9. Nun jeweils 100 g Marzipan in eine länglichen Zylinder kneten und leicht seitlich der Mitte platzieren und vorsichtig in den Teig drücken.
 10. Klappe Nun die längere Seite über das Marzipan und klappe dann die andere Seite über die erste Seite.
 11. Drücke nun vorsichtig mit der Handkante eine Kuhle leicht seitlich der Mitte entlang der kompletten Länge des Stollens.
 12. Sammle nun alle Rosinen von der Oberfläche des Stollens, da diese bitter werden, wenn sie im Ofen offen liegen.
