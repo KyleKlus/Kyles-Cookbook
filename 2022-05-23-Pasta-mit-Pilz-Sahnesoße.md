@@ -2,8 +2,8 @@
 title: Pasta mit Pilz Sahnesoße
 created: Tu 23.05.2022, 17:06:11
 author: Kyle Klus
-categories: Kyles-Cookbook meals
-backlink: /posts/kyles-cookbook/Cooking-Recipes.html
+categories:  Kyles-Cookbook cooking vegetarian savory recipe
+backlink: /posts/kyles-cookbook/cooking/vegetarian/moc/Vegetarian-Cooking-Recipes.html
 tags: status/not_tree
 ---
 

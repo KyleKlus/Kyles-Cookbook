@@ -2,8 +2,8 @@
 title: Eingelegte Rote Zwiebeln
 created: Tu 23.05.2022, 17:06:11
 author: Kyle Klus
-categories: Kyles-Cookbook meals
-backlink: /posts/kyles-cookbook/Cooking-Recipes.html
+categories: Kyles-Cookbook cooking forall extraingredients recipe
+backlink: /posts/kyles-cookbook/cooking/meatbased/moc/Cooking-Recipes.html
 tags: status/not_tree
 ---
 

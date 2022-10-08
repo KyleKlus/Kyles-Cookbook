@@ -2,8 +2,8 @@
 title: Beas saftiger Christstollen
 created: Tu 23.05.2022, 17:06:11
 author: Kyle Klus
-categories: Kyles-Cookbook cake
-backlink: /posts/kyles-cookbook/Baking-Recipes.html
+categories: Kyles-Cookbook baking notvegan cake recipe
+backlink: /posts/kyles-cookbook/cooking/notvegan/moc/baking-Recipes.html
 tags: status/not_tree
 ---
 

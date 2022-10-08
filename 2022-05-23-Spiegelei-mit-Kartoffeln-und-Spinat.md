@@ -2,8 +2,8 @@
 title: Spiegelei mit Kartoffeln und Spinat
 created: Tu 23.05.2022, 17:12:11
 author: Kyle Klus
-categories: Kyles-Cookbook meals
-backlink: /posts/kyles-cookbook/Cooking-Recipes.html
+categories: Kyles-Cookbook cooking vegetarian savory recipe
+backlink: /posts/kyles-cookbook/cooking/vegetarian/moc/Vegetarian-Cooking-Recipes.html
 tags: status/not_tree
 ---
 

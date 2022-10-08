@@ -2,8 +2,8 @@
 title: Omlette
 created: Tu 23.05.2022, 17:11:11
 author: Kyle Klus
-categories: Kyles-Cookbook cooking meatbased savory recipe
-backlink: /posts/kyles-cookbook/cooking/meatbased/moc/Cooking-Recipes.html
+categories: Kyles-Cookbook cooking vegetarian savory recipe
+backlink: /posts/kyles-cookbook/cooking/vegetarian/moc/Vegetarian-Cooking-Recipes.html
 tags: status/not_tree
 ---
 
@@ -16,7 +16,6 @@ tags: status/not_tree
 | 1 - 2              | Knoblauchzehen                 |
 | 250 g             | Cherrytomaten                  |
 | -                | Kartoffeln                     |
-| -                | Speck oder Salami **Optional** |
 | -                | Oliven **Optional**            |
 | -                | Salz                           |
 | -                | Pfeffer                        |
@@ -26,8 +25,7 @@ tags: status/not_tree
 
 1. Alle Eier in eine Schüssel geben und würzen.
 2. Cherrytomaten halbieren und die Zwiebeln und den Knoblauch würfeln.
-3. **Optional:** Salamischeiben in Würfel schneiden.
-4. **Optional:** Oliven halbieren.
-5. Eier in die Pfanne geben, bei mittlerer Hitze anbraten und warten bis sich eine Boden gebildet hat.
-6. Alle geschnittenen Zutaten auf dem Omelett verteilen und nach ca. 5 min vorsichtig zuklappen.
-7. Das Omelette noch ein bisschen weiter brutzeln lassen und es zwischendurch wenden (Vorsicht!: Raus nehmen bevor es anfängt schwarz zu werden).
+3. **Optional:** Oliven halbieren.
+4. Eier in die Pfanne geben, bei mittlerer Hitze anbraten und warten bis sich eine Boden gebildet hat.
+5. Alle geschnittenen Zutaten auf dem Omelett verteilen und nach ca. 5 min vorsichtig zuklappen.
+6. Das Omelette noch ein bisschen weiter brutzeln lassen und es zwischendurch wenden (Vorsicht!: Raus nehmen bevor es anfängt schwarz zu werden).

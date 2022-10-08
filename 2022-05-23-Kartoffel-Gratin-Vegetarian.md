@@ -1,9 +1,9 @@
 ---
-title: Kartoffel Gratin
+title: Kartoffel Gratin (Vegetarian)
 created: Tu 23.05.2022, 17:06:11
 author: Kyle Klus
-categories: Kyles-Cookbook cooking meatbased savory recipe
-backlink: /posts/kyles-cookbook/cooking/meatbased/moc/Cooking-Recipes.html
+categories: Kyles-Cookbook cooking vegetarian savory recipe
+backlink: /posts/kyles-cookbook/cooking/vegetarian/moc/Vegetarian-Cooking-Recipes.html
 tags: status/not_tree
 ---
 
@@ -19,7 +19,6 @@ tags: status/not_tree
 | 1                | Zucchini oder Obergine         |
 | -                | Käse                           |
 | -                | Kartoffeln                     |
-| -                | Speck oder Salami **Optional** |
 | -                | Salz                           |
 | -                | Pfeffer                        |
 | -                | Paprika-Gewürz                 |
@@ -30,7 +29,7 @@ tags: status/not_tree
 1. So viele Kartoffeln schälen, halbieren und in Scheiben schneiden, wie so in die Auflaufform passen, sodass noch die anderen Zutaten hinein passen.
 2. Zwiebeln, Paprika und Obergine würfeln oder in Streifen schneiden.
 3. Alles in Öl in einer Pfanne anbraten und währenddessen Würzen.
-4. Knoblauch und Speck **Optional** würfeln und zum Schluss mit in die Pfanne geben.
+4. Knoblauch würfeln und zum Schluss mit in die Pfanne geben.
 5. Ofen auf ca. 180C - 200C vorheizen.
 6. Sahne hinzugeben und kurz köcheln lassen.
 7. Alles mit den Kartoffeln in der Auflaufform vermengen, mit Käsen bestreuen und solange in den Ofen schieben, bis der Käse eine gute Bräunung hat.

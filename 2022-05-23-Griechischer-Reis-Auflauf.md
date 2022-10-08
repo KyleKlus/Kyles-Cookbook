@@ -2,13 +2,10 @@
 title: Griechischer Reis Auflauf
 created: Tu 23.05.2022, 17:08:11
 author: Kyle Klus
-categories: Kyles-Cookbook meals
-backlink: /posts/kyles-cookbook/Cooking-Recipes.html
-tags:
-  - status/not_tree
-
+categories: Kyles-Cookbook cooking meatbased savory recipe
+backlink: /posts/kyles-cookbook/cooking/meatbased/moc/Cooking-Recipes.html
+tags: status/not_tree
 aliases:
-  -
 ---
 
 ## Zutaten (ca. 3 Portionen)

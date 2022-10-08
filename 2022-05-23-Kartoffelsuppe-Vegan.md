@@ -2,8 +2,8 @@
 title: Kartoffelsuppe
 created: Tu 23.05.2022, 17:09:11
 author: Kyle Klus
-categories: Kyles-Cookbook cooking meatbased savory recipe
-backlink: /posts/kyles-cookbook/cooking/meatbased/moc/Cooking-Recipes.html
+categories: Kyles-Cookbook cooking vegan savory recipe
+backlink: /posts/kyles-cookbook/cooking/vegan/moc/Vegan-Cooking-Recipes.html
 tags: status/not_tree
 ---
 
@@ -13,7 +13,6 @@ tags: status/not_tree
 | ---------------- | ---------------- |
 | 2                | Zwiebel          |
 | 1                | Suppen-Grün      |
-| 1                | Würstchen        |
 | -                | Gemüsebrühe      |
 | -                | Kartoffeln       |
 | -                | Salz             |

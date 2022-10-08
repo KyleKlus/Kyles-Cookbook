@@ -1,13 +1,13 @@
 ---
-title: Meat based recipes
+title: Vegan recipes
 created: Tu 22.05.2022, 17:06:11
 author: Kyle Klus
-categories: Kyles-Cookbook cooking meatbased moc
+categories: Kyles-Cookbook cooking vegan moc
 layout: post_moc
 backlink: /Kyles-Cookbook.html
 tags: status/not_tree
 ---
-{% assign recipes = site.categories.cooking | where: "categories", "meatbased" %}
+{% assign recipes = site.categories.cooking | where: "categories", "vegan" %}
 {% assign forallRecipes = site.categories.cooking | where: "categories", "forall" %}
 {% assign recipes = recipes | concat: forallRecipes %}
 {% assign recipes = recipes | where: "categories", "recipe" %}

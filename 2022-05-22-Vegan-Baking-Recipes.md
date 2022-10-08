@@ -1,13 +1,13 @@
 ---
-title: Non-Vegan Recipes
+title: Vegan Recipes
 created: Tu 22.05.2022, 17:06:11
 author: Kyle Klus
-categories: Kyles-Cookbook baking notvegan moc
+categories: Kyles-Cookbook baking vegan moc
 layout: post_moc
 backlink: /Kyles-Cookbook.html
 tags: status/not_tree
 ---
-{% assign recipes = site.categories.baking | where: "categories", "notvegan" %}
+{% assign recipes = site.categories.baking | where: "categories", "vegan" %}
 {% assign forallRecipes = site.categories.baking | where: "categories", "forall" %}
 {% assign recipes = recipes | concat: forallRecipes %}
 {% assign recipes = recipes | where: "categories", "recipe" %}
