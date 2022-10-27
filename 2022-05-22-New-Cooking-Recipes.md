@@ -2,7 +2,7 @@
 title: New recipes and techniques
 created: Tu 22.05.2022, 17:06:11
 author: Kyle Klus
-categories: Kyles-Cookbook cooking meatbased moc
+categories: Kyles-Cookbook cooking moc
 layout: post_moc
 backlink: /Kyles-Cookbook.html
 tags: status/not_tree
@@ -51,6 +51,7 @@ tags: status/not_tree
 - [Wood Ear mushroom casserole](https://www.youtube.com/watch?v=k-YIXBFqPpk)
 - [What to do with 31 Eggs](https://www.youtube.com/watch?v=CmXvkGUKSa8)
 - [Stinging Nettle Pesto](https://www.youtube.com/watch?v=8qKcvR1OIjI)
+- [Vegane Karottensuppe](https://elavegan.com/de/vegane-karottensuppe/)
 
 ## Interesting New Techniques
 
