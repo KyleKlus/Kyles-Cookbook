@@ -16,7 +16,7 @@ export default function Logo() {
       className={styles.logoWrapper}
     >
       <Image
-        src="/KK_Logo.svg"
+        src={`${process.env.BASE_PATH}/KK_Logo.svg`}
         alt="KK Logo"
         width={'42'}
         height={'42'}
