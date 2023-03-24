@@ -97,7 +97,7 @@ export default function MarkdownPostListTemplate(props: IPost) {
 }
 
 export async function getStaticPaths() {
-  const folder = 'Kyles-Cookbook/recipes/'
+  const folder = 'recipes/'
   const filenames = fs.readdirSync(folder)
   const markdownFilenames = filenames.filter(file => file.endsWith('.md')).map(filename => '/' + filename).map(filename => filename.replace('.md', ''))
   return {
@@ -109,7 +109,7 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }: GetStaticPropsContext) {
 
   // get files
-  const folder = 'Kyles-Cookbook/recipes/'
+  const folder = 'recipes/'
   const delimiter = '---'
   if (!params || !params.markdownPostTemplate || Array.isArray(params.markdownPostTemplate)) return { props: {} };
 
