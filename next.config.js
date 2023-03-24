@@ -5,9 +5,9 @@
 
 const nextConfig = {
   reactStrictMode: true,
-  basePath: '',
+  basePath: '/Kyles-Cookbook',
   env: {
-    basePath: '',
+    basePath: '/Kyles-Cookbook',
   },
 };
 
