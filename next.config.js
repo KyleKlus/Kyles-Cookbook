@@ -5,7 +5,10 @@
 
 const nextConfig = {
   reactStrictMode: true,
-  basePath: '/Kyles-Cookbook'
+  basePath: '',
+  env: {
+    basePath: '',
+  },
 };
 
 module.exports = nextConfig;
