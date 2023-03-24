@@ -1,45 +1,38 @@
 /** @format */
+import fs from 'fs';
+import path from 'path';
+
+
 import Head from 'next/head';
 import Footer from '@/components/footer/Footer';
 import Header from '@/components/header/Header';
 import Content from '@/components/Content';
-import Text from '@/components/Text';
-import Image from 'next/image';
 
 import Main from '@/components/Main';
 
-import textStyles from '@/styles/components/Text.module.css'
-import homeStyles from '@/styles/Home.module.css'
 import headerStyles from '@/styles/components/header/Header.module.css'
-import sideNavStyles from '@/styles/components/header/SideNavigation.module.css'
-
+import styles from '@/styles/CookbookIndex.module.css'
 
 import ScrollNavLink from '@/components/header/ScrollNavLink';
 import dynamic from 'next/dynamic';
 
-import heroPic from '../../public/2023-02-13T20-29-47-521568.jpg'
-import aboutPic from '../../public/2023-02-13T20-30-00-388829.jpg'
-import redSolitudePic from '../../public/redsolitude.png'
-import solitudePic from '../../public/solitude.png'
-
-
-import Card from '@/components/Card';
 import Link from 'next/link';
-import NavLink from '@/components/header/NavLink';
+import matter from 'gray-matter';
+import IPost from '@/interfaces/IPost';
+import Card from '@/components/Card';
 
 const ThemeButton = dynamic(() => import('@/components/buttons/ThemeButton'), {
   ssr: false,
 });
 
-export default function Home() {
-
+export default function MarkdownPostListTemplate(props: { posts: IPost[] }) {
   return (
     <>
       <Head>
-        <title>Kyle Klus | Website</title>
+        <title>Kyle Klus | Cookbook</title>
         <meta
           name="description"
-          content="Website of Kyle Klus."
+          content="Cookbook of Kyle Klus."
         />
         <meta
           name="viewport"
@@ -72,133 +65,70 @@ export default function Home() {
       <Header>
         <ScrollNavLink
           className={headerStyles.headerNavLink}
-          elementName="heroPage"
+          elementName="/#heroPage"
           displayText="Home"
         />
         <ScrollNavLink
           className={headerStyles.headerNavLink}
-          elementName="portfolioPage"
+          elementName="/#portfolioPage"
           displayText="Portfolio"
         />
         <ScrollNavLink
           className={headerStyles.headerNavLink}
-          elementName="aboutPage"
+          elementName="/#aboutPage"
           displayText="About"
         />
         <ThemeButton />
       </Header>
       <Main>
         <div id={'top'}></div>
-        <Content id="heroPage" className={homeStyles.heroPage}>
-          <div className={homeStyles.blurredImageWrapper}>
-            <Image
-              className={homeStyles.heroPageBG}
-              alt="travel"
-              src={heroPic}
-              priority={true}
-              loading={'eager'}
-              quality={50}
-            />
-          </div>
-
-          <div className={homeStyles.slideInWrapper}>
-            <p className={[homeStyles.xxLarge, textStyles.left, homeStyles.slideInRight].join(' ')}>Hi there👋, I am Kyle!</p>
-            <br />
-            <br />
-            <p className={[homeStyles.xLarge, textStyles.right, homeStyles.slideInLeft].join(' ')}>I am a computer science student,</p>
-            <p className={[homeStyles.large, textStyles.left, homeStyles.slideInRight].join(' ')}>a passionate cook 🍳,</p>
-            <br />
-            <br />
-            <p className={[homeStyles.xxLarge, textStyles.left, homeStyles.slideInRight].join(' ')}>a frontend developer🚀,</p>
-            <br />
-            <p className={[homeStyles.xLarge, textStyles.center, homeStyles.slideInLeftToCenter].join(' ')}>a woodworking hobbyist</p>
-            <br />
-            <p className={[homeStyles.large, textStyles.right, homeStyles.slideInLeft].join(' ')}>and overall a DIY lover ❤️.</p>
-          </div>
-        </Content>
-        <Content id="portfolioPage" className={[homeStyles.portfolioPage, 'applyHeaderOffset'].join(' ')}>
-          <div className={homeStyles.portfolioPageBG}></div>
-          <Text>
-            <br />
-            <br />
-            <h1 className={textStyles.center}>Portfolio</h1>
-            {/* <Markdown className>{props.posts}
-            </Markdown> */}
-
-          </Text>
-          <div className={[homeStyles.portfolioCardWrapper].join(' ')}>
-            <Card className={[homeStyles.portfolioCard].join(' ')}>
-              <h2>Obsidian &quot;Solitude Theme&quot;</h2>
-              <br />
-              <div className={[homeStyles.portfolioCardImgWrapper].join(' ')}>
-                <Image
-                  className={[homeStyles.portfolioCardImg].join(' ')}
-                  src={solitudePic} alt={'Solitude Promo Screenshot'}
-                  priority={true}
-                  loading={'eager'}
-                  quality={100}></Image>
-                <Text className={[homeStyles.portfolioCardText].join(' ')}>
-                  <Link href={'https://github.com/MajorEnkidu/solitude-obsidian-theme'}>Solitude</Link> is a modern looking Obsidian theme, which is optimized for desktop, mobile and tablet. It is highly customizable via the <Link href={'https://github.com/mgmeyers/obsidian-style-settings'}>Style Settings</Link> Plugin and has many extra features.
-                </Text>
-              </div>
-            </Card>
-            <Card className={[homeStyles.portfolioCard].join(' ')}>
-              <h2>Visual Studio Code &quot;Red Solitude&quot; Theme</h2>
-              <br />
-              <div className={[homeStyles.portfolioCardImgWrapper].join(' ')}>
-                <Image
-                  className={[homeStyles.portfolioCardImg].join(' ')}
-                  src={redSolitudePic} alt={'Red Solitude Promo Screenshot'}
-                  priority={true}
-                  loading={'eager'}
-                  quality={100}></Image>
-                <Text className={[homeStyles.portfolioCardText].join(' ')}>
-                  <Link href={'https://marketplace.visualstudio.com/items?itemName=MajorEnkidu.red-solitude'}>Red Solitude</Link> is a dark theme with a green-blueish tint. It uses a <mark className='accent-marker'>red</mark> accent color and has a colorful syntax highlighting.
-                </Text>
-              </div>
-            </Card>
-          </div>
-        </Content>
-        <Content id="aboutPage" className={homeStyles.aboutPage}>
-          <div className={homeStyles.blurredImageWrapper}>
-            <Image
-              className={homeStyles.aboutPageBG}
-              alt="travel"
-              src={aboutPic}
-              priority={true}
-              loading={'eager'}
-              quality={50}
-            />
-          </div>
-          <Text>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-          </Text>
-          <div className={homeStyles.aboutPageBGColor}>
-            <Text>
-              <br />
-              <h1 >About Me 🧑🏻‍💻</h1>
-              <br />
-              <p>Hi there! I&apos;m Kyle Klus, a free time software developer and a student at the University of Hanover, where I&apos;m pursuing a degree in technical computer science.</p>
-              <br />
-              <p>I love coding in various languages such as React, C/C++, Java and Python. I also enjoy woodworking and DIY projects in my free time. When I&apos;m not coding, you can find me in my workshop, crafting woodworking and in general DIY projects with my own hands.</p>
-              <br />
-              <p>Currently, I work as a part-time frontend developer for the &quot;Finanz Informatik&quot;, where I create user-friendly WebParts for Microsoft SharePoint sites. And when I need a break from all that, I like to cook delicious meals for myself and my friends. Whether it&apos;s software development, woodworking or cooking, I always strive to do my best and have fun along the way. </p>
-              <br />
-              <p>Welcome to my website! 🎉</p>
-            </Text>
-          </div>
+        <Content id='markdownSection' className={[styles.cookbookIndex, 'applyHeaderOffset'].join(' ')}>
+          {...props.posts.map((post, index) => {
+            return (
+              <Card key={index} >
+                <Link href={post.slug}>{post.frontmatter.title}</Link>
+              </Card>
+            )
+          })}
         </Content>
         <Footer />
       </Main>
     </>
   );
+}
+
+export async function getStaticProps() {
+  // get files
+  const folder = 'recipes/'
+  const delimiter = '---'
+  const filenames = fs.readdirSync(folder)
+  const markdownFilenames = filenames.filter(file => file.endsWith('.md'))
+
+  const posts: IPost[] = markdownFilenames.map((filename) => {
+    const slug = filename.replace('.md', '')
+    const path = `${folder}${filename}`
+    const buffer = fs.readFileSync(path, 'utf-8')
+    let fileContent = buffer.toString();
+    let frontmatter = {}
+
+    if (fileContent.startsWith(delimiter)) {
+      frontmatter = matter(fileContent).data
+      const startOfFrontmatter = fileContent.indexOf(delimiter)
+      const endOfFrontmatter = fileContent.indexOf(delimiter, startOfFrontmatter + delimiter.length) + delimiter.length
+      fileContent = fileContent.substring(endOfFrontmatter, fileContent.length)
+    }
+    return {
+      name: filename,
+      slug: slug,
+      path: path,
+      frontmatter: frontmatter,
+      content: fileContent
+    }
+  })
+
+  return {
+    props: {
+      posts: posts,
+    }
+  }
 }
