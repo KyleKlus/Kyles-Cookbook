@@ -28,4 +28,4 @@ tags: status/not_tree
 3. **Optional**: Speck oder Salami in Würfel schneiden.
 4. Zwiebeln, Tomaten und *Knoblauch* würfeln.
 5. Alles in der Pfanne braten und würzen.
-6. **Optional**: Eier mit in die Pfanne geben und mit anbraten, sodass man einen Bratkartoffel/Rührei-Hybriden bekommt.
+6. **Optional**: Eier mit in die Pfanne geben und mit anbraten, sodass man einen Bratkartoffel / Rührei-Hybriden bekommt.
