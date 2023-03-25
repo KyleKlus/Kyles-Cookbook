@@ -16,7 +16,7 @@ export default function ScrollNavLink(props: React.PropsWithChildren<INavLinkPro
   const [isInView, setIsInView] = useState(false)
   const styleClass = props.className ? ' ' + props.className : ''
   const classes =
-    isInView || router.pathname.match('(' + props.elementName + ')+') ? ' ' + styles.isCurrentWindow + styleClass : styleClass;
+    isInView || router.pathname.endsWith(props.elementName) ? ' ' + styles.isCurrentWindow + styleClass : styleClass;
 
   useEffect(() => {
     function determineCurrentPage() {
