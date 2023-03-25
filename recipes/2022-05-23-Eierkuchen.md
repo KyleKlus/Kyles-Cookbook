@@ -2,7 +2,7 @@
 title: Eierkuchen
 created: Tu 23.05.2022, 17:06:11
 author: Kyle Klus
-categories: Kyles-Cookbook cooking vegetarian sweet recipe
+categories: cooking vegetarian sweet recipe
 backlink: /posts/kyles-cookbook/cooking/vegetarian/moc/Vegetarian-Cooking-Recipes.html
 tags: status/not_tree
 ---

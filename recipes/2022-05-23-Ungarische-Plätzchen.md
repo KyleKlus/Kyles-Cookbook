@@ -2,7 +2,7 @@
 title: Ungarische Plätzchen
 created: Tu 23.05.2022, 17:06:11
 author: Kyle Klus
-categories: Kyles-Cookbook baking notvegan cookies recipe
+categories: baking notvegan cookies recipe
 backlink: /posts/kyles-cookbook/baking/notvegan/moc/Baking-Recipes.html
 tags: status/not_tree
 ---
