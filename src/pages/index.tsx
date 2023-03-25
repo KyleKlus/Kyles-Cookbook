@@ -22,12 +22,15 @@ import matter from 'gray-matter';
 import IPost from '@/interfaces/IPost';
 import Card from '@/components/Card';
 import NavLink from '@/components/header/NavLink';
+import IRecipePost from '@/interfaces/IRecipePost';
+import IRecipeCategory from '@/interfaces/IRecipeCategory';
 
 const ThemeButton = dynamic(() => import('@/components/buttons/ThemeButton'), {
   ssr: false,
 });
 
-export default function MarkdownPostListTemplate(props: { posts: IPost[] }) {
+export default function MarkdownPostListTemplate(props: { postCategories: IRecipeCategory[], posts: IRecipePost[] }) {
+
   return (
     <>
       <Head>
@@ -93,7 +96,7 @@ export default function MarkdownPostListTemplate(props: { posts: IPost[] }) {
           {...props.posts.map((post, index) => {
             return (
               <Card key={index} >
-                <Link href={post.slug}>{post.frontmatter.title}</Link>
+                <Link href={post.url}>{post.title}</Link>
               </Card>
             )
           })}
@@ -129,36 +132,48 @@ export default function MarkdownPostListTemplate(props: { posts: IPost[] }) {
 }
 
 export async function getStaticProps() {
-  // get files
-  const folder = 'recipes/'
+  // variables
+  const serverFolder = 'recipes/'
   const delimiter = '---'
-  const filenames = fs.readdirSync(folder)
-  const markdownFilenames = filenames.filter(file => file.endsWith('.md'))
 
-  const posts: IPost[] = markdownFilenames.map((filename) => {
-    const slug = filename.replace('.md', '')
-    const path = `${folder}${filename}`
-    const buffer = fs.readFileSync(path, 'utf-8')
-    let fileContent = buffer.toString();
-    let frontmatter = {}
+  // get markdown files
+  const filenames = fs.readdirSync(serverFolder).filter(file => file.endsWith('.md'))
 
-    if (fileContent.startsWith(delimiter)) {
-      frontmatter = matter(fileContent).data
-      const startOfFrontmatter = fileContent.indexOf(delimiter)
-      const endOfFrontmatter = fileContent.indexOf(delimiter, startOfFrontmatter + delimiter.length) + delimiter.length
-      fileContent = fileContent.substring(endOfFrontmatter, fileContent.length)
-    }
+  // Convert markdown files into posts
+  const posts: IRecipePost[] = filenames.map((filename) => {
+    let url = filename.replace('.md', '')
+    url = '/' + url
+    const filepath = `${serverFolder}${filename}`
+    let fileContent = fs.readFileSync(filepath, 'utf-8').toString();
+    const frontmatter = matter(fileContent).data
+    const startOfFrontmatter = fileContent.indexOf(delimiter)
+    const endOfFrontmatter = fileContent.indexOf(delimiter, startOfFrontmatter + delimiter.length) + delimiter.length
+    fileContent = fileContent.substring(endOfFrontmatter, fileContent.length)
+
+    const categoriesString: string = frontmatter.categories;
+    const categories: string[] = categoriesString.split(' ')
+
     return {
-      name: filename,
-      slug: slug,
-      path: path,
-      frontmatter: frontmatter,
-      content: fileContent
+      filename: filename,
+      filepath: filepath,
+      url: url,
+      title: frontmatter.title,
+      author: frontmatter.author,
+      categories: categories,
+      created: frontmatter.created,
+      content: fileContent,
     }
+  })
+
+  const postCategories: IRecipeCategory[] = [];
+
+  posts.forEach(post => {
+
   })
 
   return {
     props: {
+      postCategories: postCategories,
       posts: posts,
     }
   }
