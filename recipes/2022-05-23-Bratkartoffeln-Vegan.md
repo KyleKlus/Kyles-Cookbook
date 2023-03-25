@@ -2,7 +2,7 @@
 title: Bratkartoffeln (Vegan)
 created: Tu 23.05.2022, 17:06:11
 author: Kyle Klus
-categories: Kyles-Cookbook cooking vegan savory recipe
+categories: cooking vegan savory recipe
 backlink: /posts/kyles-cookbook/cooking/vegan/moc/Vegan-Cooking-Recipes.html
 tags: status/not_tree
 ---

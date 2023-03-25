@@ -2,7 +2,7 @@
 title: Beas Blechkuchen
 created: Th 11.08.2022, 11:52:11
 author: Kyle Klus
-categories: Kyles-Cookbook baking notvegan cake recipe
+categories: baking notvegan cake recipe
 backlink: /posts/kyles-cookbook/baking/notvegan/moc/Baking-Recipes.html
 tags: status/not_tree
 ---

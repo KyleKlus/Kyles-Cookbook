@@ -2,7 +2,7 @@
 title: All recipes
 created: Tu 22.05.2022, 17:06:11
 author: Kyle Klus
-categories: Kyles-Cookbook cooking forall moc
+categories: cooking forall moc
 layout: post_moc
 backlink: /Kyles-Cookbook.html
 tags: status/not_tree
