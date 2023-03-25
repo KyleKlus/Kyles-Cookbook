@@ -29,8 +29,7 @@ const ThemeButton = dynamic(() => import('@/components/buttons/ThemeButton'), {
   ssr: false,
 });
 
-export default function MarkdownPostListTemplate(props: { postCategories: IRecipeCategory[], posts: IRecipePost[] }) {
-
+export default function MarkdownPostListTemplate(props: { postCategories: IRecipeCategory[] }) {
   return (
     <>
       <Head>
@@ -93,13 +92,13 @@ export default function MarkdownPostListTemplate(props: { postCategories: IRecip
       <Main>
         <div id={'top'}></div>
         <Content id='markdownSection' className={[styles.cookbookIndex, 'applyHeaderOffset'].join(' ')}>
-          {...props.posts.map((post, index) => {
+          {/* {...props.posts.map((post, index) => {
             return (
               <Card key={index} >
                 <Link href={post.url}>{post.title}</Link>
               </Card>
             )
-          })}
+          })} */}
         </Content>
         <Footer>
           <ScrollNavLink
@@ -150,8 +149,9 @@ export async function getStaticProps() {
     const endOfFrontmatter = fileContent.indexOf(delimiter, startOfFrontmatter + delimiter.length) + delimiter.length
     fileContent = fileContent.substring(endOfFrontmatter, fileContent.length)
 
-    const categoriesString: string = frontmatter.categories;
+    let categoriesString: string = frontmatter.categories
     const categories: string[] = categoriesString.split(' ')
+    url = `/${categories.join('/')}` + url
 
     return {
       filename: filename,
@@ -165,16 +165,60 @@ export async function getStaticProps() {
     }
   })
 
-  const postCategories: IRecipeCategory[] = [];
+  const categorizedPosts: IRecipeCategory[] = [];
 
   posts.forEach(post => {
+    const visitedCategoryTrace: IRecipeCategory[] = [];
 
+    post.categories.forEach((category, index) => {
+      if (visitedCategoryTrace.length === 0) {
+        const filteredCategory = categorizedPosts.filter(e => e.title === category)
+        const postsInCategory = []
+        if (index === post.categories.length - 1) { postsInCategory.push(post) }
+
+        if (filteredCategory.length === 0) {
+          categorizedPosts.push({
+            title: category,
+            url: `/${category}`,
+            otherCategories: [],
+            posts: postsInCategory
+          })
+
+          visitedCategoryTrace.push(categorizedPosts[categorizedPosts.length - 1])
+        } else {
+          if (postsInCategory.length !== 0) { filteredCategory[0].posts.push(postsInCategory[0]) }
+
+          visitedCategoryTrace.push(filteredCategory[0])
+        }
+      } else {
+        const lastVisitedCategory = visitedCategoryTrace[visitedCategoryTrace.length - 1]
+        const filteredCategory = lastVisitedCategory.otherCategories.filter(e => e.title === category)
+        const postsInCategory = []
+        if (index === post.categories.length - 1) { postsInCategory.push(post) }
+
+        if (filteredCategory.length === 0) {
+
+          lastVisitedCategory.otherCategories.push({
+            title: category,
+            url: `/${visitedCategoryTrace.map(e => e.title).join('/')}/${category}`,
+            otherCategories: [],
+            posts: postsInCategory
+          })
+
+          visitedCategoryTrace.push(lastVisitedCategory.otherCategories[lastVisitedCategory.otherCategories.length - 1])
+        } else {
+          if (postsInCategory.length !== 0) { filteredCategory[0].posts.push(postsInCategory[0]) }
+
+          visitedCategoryTrace.push(filteredCategory[0])
+        }
+      }
+
+    })
   })
 
   return {
     props: {
-      postCategories: postCategories,
-      posts: posts,
+      postCategories: categorizedPosts,
     }
   }
 }
