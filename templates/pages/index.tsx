@@ -12,7 +12,7 @@ import textStyles from '@/styles/components/Text.module.css'
 import homeStyles from '@/styles/Home.module.css'
 import headerStyles from '@/styles/components/header/Header.module.css'
 import sideNavStyles from '@/styles/components/header/SideNavigation.module.css'
-
+import footerStyles from '@/styles/components/footer/Footer.module.css'
 
 import ScrollNavLink from '@/components/header/ScrollNavLink';
 import dynamic from 'next/dynamic';
@@ -197,7 +197,31 @@ export default function Home() {
             </Text>
           </div>
         </Content>
-        <Footer />
+        <Footer>
+          <ScrollNavLink
+            className={footerStyles.footerNavLink}
+            elementName="/#heroPage"
+            displayText="Home"
+          />
+          <ScrollNavLink
+            className={footerStyles.footerNavLink}
+            elementName="/#portfolioPage"
+            displayText="Portfolio"
+          />
+          <ScrollNavLink
+            className={footerStyles.footerNavLink}
+            elementName="/#aboutPage"
+            displayText="About"
+          />
+          <Link href={'https://github.com/MajorEnkidu'} className={footerStyles.footerNavLink}>GitHub</Link>
+          <Link href={'https://ko-fi.com/majorenkidu'} className={footerStyles.footerNavLink}>Ko-fi</Link>
+          <Link href={'mailto:kyle.klus.2@gmail.com'} className={footerStyles.footerNavLink}>Contact</Link>
+          <NavLink
+            className={footerStyles.sideNavLink + ' ' + footerStyles.footerNavLink}
+            pathName="/privacy"
+            displayText="Privacy"
+          />
+        </Footer>
       </Main>
     </>
   );
