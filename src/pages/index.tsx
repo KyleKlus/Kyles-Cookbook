@@ -9,6 +9,7 @@ import Header from '@/components/header/Header';
 import Content from '@/components/Content';
 
 import Main from '@/components/Main';
+import Text from '@/components/Text';
 
 import headerStyles from '@/styles/components/header/Header.module.css'
 import styles from '@/styles/CookbookIndex.module.css'
@@ -29,7 +30,17 @@ const ThemeButton = dynamic(() => import('@/components/buttons/ThemeButton'), {
   ssr: false,
 });
 
-export default function MarkdownPostListTemplate(props: { postCategories: IRecipeCategory[] }) {
+export default function MarkdownPostListTemplate(props: { posts: IRecipePost[], postCategories: string[] }) {
+  function makeFirstLetterUppercase(name: string) {
+    const nameLetters: string[] = []
+    nameLetters.push(name[0].toUpperCase())
+
+    for (let i = 1; i < name.length; i++) {
+      nameLetters.push(name[i]);
+    }
+    return nameLetters.join('')
+  }
+
   return (
     <>
       <Head>
@@ -90,15 +101,29 @@ export default function MarkdownPostListTemplate(props: { postCategories: IRecip
         <ThemeButton />
       </Header>
       <Main>
-        <div id={'top'}></div>
+        <div id={'top'} />
         <Content id='markdownSection' className={[styles.cookbookIndex, 'applyHeaderOffset'].join(' ')}>
-          {/* {...props.posts.map((post, index) => {
-            return (
-              <Card key={index} >
-                <Link href={post.url}>{post.title}</Link>
-              </Card>
-            )
-          })} */}
+          <Text>
+            <h1>Kyle's Cookbook</h1>
+            {props.postCategories.map((category, i) => {
+              const categoryPosts = props.posts.filter(post => post.categories.filter(postCategory => postCategory === category).length !== 0)
+
+              return (
+                <>
+                  <h2>{makeFirstLetterUppercase(category)}</h2>
+                  {categoryPosts.length !== 0 && categoryPosts.map((post, j) => {
+
+                    return (
+                      <Card key={j} className={[styles.entry].join(' ')}>
+                        <Link key={j} className={[styles.entryLink].join(' ')} href={post.url}>{'"' + makeFirstLetterUppercase(post.title) + '" |  Author: ' + post.author}</Link>
+                        <p className={[styles.entryInfo].join(' ')}>{post.categories.join(' | ')}</p>
+                      </Card>
+                    )
+                  })}
+                </>
+              )
+            })}
+          </Text>
         </Content>
         <Footer>
           <ScrollNavLink
@@ -164,13 +189,14 @@ export async function getStaticProps() {
       content: fileContent,
     }
   })
-
   const categorizedPosts: IRecipeCategory[] = [];
 
   posts.forEach(post => {
     const visitedCategoryTrace: IRecipeCategory[] = [];
 
     post.categories.forEach((category, index) => {
+      if (category === 'moc') { return }
+
       if (visitedCategoryTrace.length === 0) {
         const filteredCategory = categorizedPosts.filter(e => e.title === category)
         const postsInCategory = []
@@ -212,13 +238,13 @@ export async function getStaticProps() {
           visitedCategoryTrace.push(filteredCategory[0])
         }
       }
-
     })
   })
 
   return {
     props: {
-      postCategories: categorizedPosts,
+      posts: posts,
+      postCategories: categorizedPosts.map(e => e.title),
     }
   }
 }

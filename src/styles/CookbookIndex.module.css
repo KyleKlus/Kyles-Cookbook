@@ -1,7 +1,30 @@
-.cookbookIndex {
-    gap: 32px;
+.cookbookIndex :is(h1, h2) {
+    text-align: left;
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.cookbookIndex h1 {
+    text-align: center;
+}
+
+.cookbookIndex h2 {
+    padding-bottom: 4px;
+    border-bottom: 1px solid var(--bg-color-40);
 }
 
 .entry {
-    min-width: none;
+    margin-bottom: 64px;
+    padding: 32px;
+    width: 100%;
+    gap: 8px;
+}
+
+.entryLink {
+    width: fit-content;
+}
+
+.entryInfo {
+    font-size: smaller;
 }
