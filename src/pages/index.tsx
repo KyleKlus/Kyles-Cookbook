@@ -115,8 +115,8 @@ export default function MarkdownPostListTemplate(props: { posts: IRecipePost[], 
 
                     return (
                       <Card key={j} className={[styles.entry].join(' ')}>
-                        <Link key={j} className={[styles.entryLink].join(' ')} href={post.url}>{'"' + makeFirstLetterUppercase(post.title) + '" |  Author: ' + post.author}</Link>
-                        <p className={[styles.entryInfo].join(' ')}>{post.categories.join(' | ')}</p>
+                        <Link key={j} className={[styles.entryLink].join(' ')} href={post.url}>{makeFirstLetterUppercase(post.title)}</Link>
+                        <p className={[styles.entryInfo].join(' ')}>{'Author: ' + post.author + ' | ' + post.categories.join(' | ')}</p>
                       </Card>
                     )
                   })}

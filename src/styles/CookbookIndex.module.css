@@ -15,7 +15,7 @@
 }
 
 .entry {
-    margin-bottom: 64px;
+    margin-bottom: 48px;
     padding: 32px;
     width: 100%;
     gap: 8px;
@@ -27,4 +27,14 @@
 
 .entryInfo {
     font-size: smaller;
+}
+
+@media (max-width: 600px) {
+    .entryLink {
+        font-size: small;
+    }
+
+    .entryInfo {
+        font-size: x-small;
+    }
 }
