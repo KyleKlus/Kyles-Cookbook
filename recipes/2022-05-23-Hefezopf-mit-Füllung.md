@@ -2,7 +2,7 @@
 title: Hefezopf mit Füllung
 created: Tu 23.05.2022, 17:06:11
 author: Kyle Klus
-categories: baking notvegan cake recipe
+categories: baking notvegan cake
 backlink: /posts/kyles-cookbook/baking/notvegan/moc/Baking-Recipes.html
 tags: status/not_tree
 ---

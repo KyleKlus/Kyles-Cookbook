@@ -2,7 +2,7 @@
 title: Bratkartoffeln
 created: Tu 23.05.2022, 17:06:11
 author: Kyle Klus
-categories: cooking meatbased savory recipe
+categories: cooking meatbased savory
 backlink: /posts/kyles-cookbook/cooking/meatbased/moc/Cooking-Recipes.html
 tags: status/not_tree
 ---

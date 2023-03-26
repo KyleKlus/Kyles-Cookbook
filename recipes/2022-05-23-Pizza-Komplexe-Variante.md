@@ -2,7 +2,7 @@
 title: Pizza Komplexe Variante
 created: Tu 23.05.2022, 17:06:11
 author: Kyle Klus
-categories: cooking forall savory recipe
+categories: cooking forall savory
 backlink: /posts/kyles-cookbook/cooking/meatbased/moc/Cooking-Recipes.html
 tags: status/not_tree
 ---

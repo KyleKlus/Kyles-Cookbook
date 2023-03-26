@@ -2,7 +2,7 @@
 title: Zitronenkuchen (Vegan)
 created: Tu 23.05.2022, 17:06:11
 author: Kyle Klus
-categories: baking vegan cake recipe
+categories: baking vegan cake
 backlink: /posts/kyles-cookbook/baking/vegan/moc/Vegan-Baking-Recipes.html
 tags: status/not_tree
 ---
