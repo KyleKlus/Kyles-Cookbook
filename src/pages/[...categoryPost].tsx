@@ -198,7 +198,6 @@ export async function getStaticProps({ params }: GetStaticPropsContext) {
     }
 
 
-
     return {
         props: {
             post: post,
