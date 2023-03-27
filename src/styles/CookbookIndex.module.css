@@ -2,7 +2,7 @@
     text-align: left;
     width: 100%;
     margin-top: 3rem;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
 }
 
 .cookbookIndex h1 {
@@ -15,7 +15,7 @@
 }
 
 .entry {
-    margin-bottom: 48px;
+    margin-bottom: 24px;
     padding: 32px;
     width: 100%;
     gap: 8px;
