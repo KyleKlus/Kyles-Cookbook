@@ -1,3 +1,7 @@
+.cookbookIndex {
+    padding-bottom: 64px;
+}
+
 .cookbookIndex :is(h1, h2) {
     text-align: left;
     width: 100%;
@@ -10,31 +14,51 @@
 }
 
 .cookbookIndex h2 {
+    margin-top: 5rem;
+
     padding-bottom: 4px;
     border-bottom: 1px solid var(--bg-color-40);
 }
 
 .entry {
+    margin-left: 5%;
     margin-bottom: 24px;
     padding: 32px;
-    width: 100%;
+    width: 90%;
     gap: 8px;
 }
 
 .entryLink {
     width: fit-content;
+    overflow-wrap: break-word;
 }
 
 .entryInfo {
     font-size: smaller;
 }
 
+.entryInfo:not(:first-of-type) {
+    display: none;
+}
+
 @media (max-width: 600px) {
+    .entry {
+        padding: 16px;
+    }
+
     .entryLink {
         font-size: small;
     }
 
     .entryInfo {
         font-size: x-small;
+    }
+
+    .entryInfo:first-of-type {
+        display: none;
+    }
+
+    .entryInfo:not(:first-of-type) {
+        display: unset;
     }
 }
