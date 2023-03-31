@@ -104,7 +104,7 @@ export default function MarkdownPostListTemplate(props: { posts: IRecipePost[], 
         <div id={'top'} />
         <Content id='markdownSection' className={[styles.cookbookIndex, 'applyHeaderOffset'].join(' ')}>
           <Text>
-            <h1>Kyle's Cookbook</h1>
+            <h1>Kyle&apos;s Cookbook</h1>
             {props.postCategories.map((category, i) => {
               const categoryPosts = props.posts.filter(post => post.categories.filter(postCategory => postCategory === category).length !== 0)
 
