@@ -116,6 +116,10 @@ body[data-theme='dark'] {
   --filter-brightness: 0.4;
 }
 
+body[data-theme='dark'] #scroll-up-button-image {
+  filter: invert(1);
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 12px;
@@ -198,6 +202,8 @@ ol li {
 .applyHeaderOffset {
   padding-top: var(--header-height);
 }
+
+
 
 .accent-marker {
   color: whitesmoke;

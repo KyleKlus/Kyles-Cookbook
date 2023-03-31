@@ -36,33 +36,8 @@
   opacity: 1;
 }
 
-.bar {
-  --bar-width: calc(100% - var(--button-padding));
-  width: var(--bar-width);
-  display: block;
-  background-color: var(--bg-color-90);
-  height: 3px;
-  border-radius: 2px;
+.scrollButton .image {
   position: absolute;
-}
-
-.bar:not(:first-of-type, :last-of-type) {
-  rotate: 90deg;
-  width: var(--bar-width);
-}
-
-.bar:first-of-type {
-  --middle: calc(var(--bar-width) /2);
-  width: calc(var(--bar-width) /2);
-  position: absolute;
-  transform: matrix(0.71, 0.71, -0.71, 0.71, 3, -5);
-}
-
-
-.bar:last-of-type {
-  width: calc(var(--bar-width) /2);
-  position: absolute;
-  transform: matrix(0.71, -0.71, 0.71, 0.71, -3, -5);
 }
 
 /* Enable hover only on non-touch devices */
