@@ -1,0 +1,25 @@
+---
+title: Lauchzwiebel Öl
+created: Th 11.08.2022, 13:27:11
+author: Kyle Klus
+categories: cooking forall sauces
+backlink: /posts/kyles-cookbook/baking/vegan/moc/Vegan-Baking-Recipes.html
+tags: status/not_tree
+---
+
+# Lauchzwiebel �l
+
+## Zutaten
+
+| Menge  | Zutaten                         |
+| ------ | ------------------------------- |
+| 1 - 2 Bund  | Lauchzwiebeln                            |
+| - | Öl |
+
+## Zubereitung
+
+1. Teile den weißen Teil der Lauchzwiebeln von dem Grünen.
+2. Schneide nun die Lauchzwiebeln der Länge nach in dünne Streifen.
+3. Erhitze das Öl soweit, das sich Blasen bilden, wenn man ein Stäbchen ins Öl hält.
+4. Frittiere den weißen Teil der Lauchzwiebeln, bis sie ein bisschen verwelkt sind und füge dann den grünen Teil der Lauchzwiebeln hinzu.
+5. Frittiere sie solange, bis sie anfangen gold-braun und knusprig zu werden.
