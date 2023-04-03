@@ -18,7 +18,7 @@ tags: status/not_tree
 | 1 - 2              | Paprika                        |
 | 1 - 2              | Knoblauchzehen                 |
 | 1 - 2 Becher       | Sahne                          |
-| 1                | Zucchini oder Obergine         |
+| 1                | Zucchini oder Aubergine         |
 | -                | Käse                           |
 | -                | Kartoffeln                     |
 | -                | Speck oder Salami **Optional** |
@@ -30,7 +30,7 @@ tags: status/not_tree
 ## Zubereitung
 
 1. So viele Kartoffeln schälen, halbieren und in Scheiben schneiden, wie so in die Auflaufform passen, sodass noch die anderen Zutaten hinein passen.
-2. Zwiebeln, Paprika und Obergine würfeln oder in Streifen schneiden.
+2. Zwiebeln, Paprika und Aubergine würfeln oder in Streifen schneiden.
 3. Alles in Öl in einer Pfanne anbraten und währenddessen Würzen.
 4. Knoblauch und Speck **Optional** würfeln und zum Schluss mit in die Pfanne geben.
 5. Ofen auf ca. 180C - 200C vorheizen.

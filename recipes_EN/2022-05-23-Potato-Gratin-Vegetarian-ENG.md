@@ -18,7 +18,7 @@ tags: status/not_tree
 | 1 - 2 | Peppers |
 | 1 - 2 | Garlic cloves |
 | 1 - 2 cups | Cream |
-| 1 | Zucchini or upper gherkin |
+| 1 | Zucchini or eggplant |
 | - | Cheese |
 | - | Potatoes |
 | - | Salt |
