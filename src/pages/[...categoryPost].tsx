@@ -29,6 +29,10 @@ import { GetStaticPropsContext } from 'next/types';
 import IRecipeCategory from '@/interfaces/IRecipeCategory';
 import IRecipePost from '@/interfaces/IRecipePost';
 
+import styles from '@/styles/CookbookPost.module.css'
+import cookbookStyles from '@/styles/CookbookIndex.module.css'
+
+
 const ThemeButton = dynamic(() => import('@/components/buttons/ThemeButton'), {
     ssr: false,
 });
@@ -73,30 +77,25 @@ export default function MarkdownPostListTemplate(props: { post: IRecipePost }) {
             </Head>
             <Header>
                 <ScrollNavLink
-                    className={headerStyles.headerNavLink}
+                    className={[headerStyles.headerNavLink].join(' ')}
                     elementName="https://majorenkidu.github.io/#heroPage"
                     displayText="Home"
                 />
                 <ScrollNavLink
-                    className={headerStyles.headerNavLink}
-                    elementName="https://majorenkidu.github.io/#portfolioPage"
-                    displayText="Portfolio"
-                />
-                <ScrollNavLink
-                    className={headerStyles.headerNavLink}
-                    elementName="https://majorenkidu.github.io/#aboutPage"
-                    displayText="About"
-                />
-                <ScrollNavLink
-                    className={headerStyles.headerNavLink}
+                    className={[headerStyles.headerNavLink].join(' ')}
                     elementName="/"
                     displayText="Cookbook"
+                />
+                <ScrollNavLink
+                    className={[headerStyles.headerNavLink].join(' ')}
+                    elementName="https://majorenkidu.github.io/#aboutPage"
+                    displayText="About"
                 />
                 <ThemeButton />
             </Header>
             <Main>
                 <div id={'top'}></div>
-                <Content className={['applyHeaderOffset'].join(' ')}>
+                <Content className={['applyHeaderOffset', styles.cookbookPost].join(' ')}>
                     <Markdown options={{ wrapper: MarkdownSection, forceWrapper: true }}>{props.post.content}</Markdown>
                 </Content>
                 <Footer>
@@ -131,7 +130,7 @@ export default function MarkdownPostListTemplate(props: { post: IRecipePost }) {
 
 export async function getStaticPaths() {
     // variables
-    const serverFolder = 'recipes/'
+    const serverFolder = 'recipes_EN/'
     const delimiter = '---'
 
     // get markdown files
@@ -164,7 +163,7 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }: GetStaticPropsContext) {
 
     // variables
-    const serverFolder = 'recipes/'
+    const serverFolder = 'recipes_EN/'
     const delimiter = '---'
 
     // get markdown files

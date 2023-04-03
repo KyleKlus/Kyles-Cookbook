@@ -20,6 +20,8 @@
     border-bottom: 1px solid var(--bg-color-40);
 }
 
+
+
 .entry {
     margin-left: 5%;
     margin-bottom: 24px;
@@ -40,6 +42,7 @@
 .entryInfo:not(:first-of-type) {
     display: none;
 }
+
 
 @media (max-width: 600px) {
     .entry {

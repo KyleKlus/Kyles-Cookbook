@@ -85,18 +85,13 @@ export default function MarkdownPostListTemplate(props: { posts: IRecipePost[], 
         />
         <ScrollNavLink
           className={headerStyles.headerNavLink}
-          elementName="https://majorenkidu.github.io/#portfolioPage"
-          displayText="Portfolio"
+          elementName="/"
+          displayText="Cookbook"
         />
         <ScrollNavLink
           className={headerStyles.headerNavLink}
           elementName="https://majorenkidu.github.io/#aboutPage"
           displayText="About"
-        />
-        <ScrollNavLink
-          className={headerStyles.headerNavLink}
-          elementName="/"
-          displayText="Cookbook"
         />
         <ThemeButton />
       </Header>
@@ -159,7 +154,7 @@ export default function MarkdownPostListTemplate(props: { posts: IRecipePost[], 
 
 export async function getStaticProps() {
   // variables
-  const serverFolder = 'recipes/'
+  const serverFolder = 'recipes_EN/'
   const delimiter = '---'
 
   // get markdown files
