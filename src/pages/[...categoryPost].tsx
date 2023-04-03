@@ -37,6 +37,10 @@ const ThemeButton = dynamic(() => import('@/components/buttons/ThemeButton'), {
     ssr: false,
 });
 
+const LanguageSelector = dynamic(() => import('@/components/buttons/LanguageSelector'), {
+    ssr: false,
+});
+
 export default function MarkdownPostListTemplate(props: { post: IRecipePost }) {
 
     return (
@@ -92,6 +96,7 @@ export default function MarkdownPostListTemplate(props: { post: IRecipePost }) {
                     displayText="About"
                 />
                 <ThemeButton />
+                {/* <LanguageSelector /> */}
             </Header>
             <Main>
                 <div id={'top'}></div>

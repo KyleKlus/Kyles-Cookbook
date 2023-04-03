@@ -30,6 +30,10 @@ const ThemeButton = dynamic(() => import('@/components/buttons/ThemeButton'), {
   ssr: false,
 });
 
+const LanguageSelector = dynamic(() => import('@/components/buttons/LanguageSelector'), {
+  ssr: false,
+});
+
 export default function MarkdownPostListTemplate(props: { posts: IRecipePost[], postCategories: string[] }) {
   function makeFirstLetterUppercase(name: string) {
     const nameLetters: string[] = []
@@ -94,6 +98,7 @@ export default function MarkdownPostListTemplate(props: { posts: IRecipePost[], 
           displayText="About"
         />
         <ThemeButton />
+        {/* <LanguageSelector /> */}
       </Header>
       <Main>
         <div id={'top'} />
