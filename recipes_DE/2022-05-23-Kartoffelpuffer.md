@@ -2,7 +2,7 @@
 title: Kartoffelpuffer
 created: Tu 23.05.2022, 17:06:11
 author: Kyle Klus
-categories: kochen vegetarisch süß
+categories: kochen vegetarisch sueß
 backlink: /posts/kyles-cookbook/kochen/vegetarisch/moc/Vegetarian-kochen-Recipes.html
 tags: status/not_tree
 ---
