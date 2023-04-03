@@ -24,6 +24,10 @@ const ThemeButton = dynamic(() => import('@/components/buttons/ThemeButton'), {
   ssr: false,
 });
 
+const LanguageSelector = dynamic(() => import('@/components/buttons/LanguageSelector'), {
+  ssr: false,
+});
+
 export default function Home() {
 
   return (
@@ -79,6 +83,7 @@ export default function Home() {
           displayText="About"
         />
         <ThemeButton />
+        <LanguageSelector />
       </Header>
       <Main>
         <div id={'top'}></div>

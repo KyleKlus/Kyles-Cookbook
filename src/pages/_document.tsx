@@ -31,11 +31,41 @@ class MyDocument extends Document {
       }
       document.body.dataset.theme = getUserPreference();
     `;
+    const setInitialLanguage = `
+      function getUserPreferenceLanguage() {
+        if(window.localStorage.getItem('language')) {
+          const language = JSON.parse(
+            localStorage.getItem('language') || '{}'
+           );
+          localStorage.removeItem('language');
+          return language;
+
+        }
+
+        let usrlang = navigator.language
+                      || navigator.userLanguage;
+        if (usrlang) {
+          let usrLangMatch = usrlang.match('(de||DE||De)+')
+
+          if (usrLangMatch) {
+            usrlang = usrLangMatch[0] !== '' ? 'de' : 'en'
+          } else {
+            usrlang = 'en'
+          }
+        } else {
+          usrlang = 'en'
+        }
+
+        return usrlang;
+      }
+      document.body.dataset.language = getUserPreferenceLanguage();
+    `;
     return (
       <Html>
         <Head />
         <body>
           <script dangerouslySetInnerHTML={{ __html: setInitialTheme }} />
+          <script dangerouslySetInnerHTML={{ __html: setInitialLanguage }} />
           <Main />
           <NextScript />
         </body>

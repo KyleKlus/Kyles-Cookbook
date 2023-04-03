@@ -68,6 +68,13 @@
   animation: slide-out 250ms ease;
 }
 
+.headerConfigButtonsWrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 8px;
+}
+
 .sideNavigationNegativeSpace {
   --sideNavNegativeWidth: calc(100vw - min(var(--sideNav-width), 90vw));
   position: absolute;
