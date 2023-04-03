@@ -2,8 +2,8 @@
 title: Cold dog
 created: Tu 23.05.2022, 17:06:11
 author: Kyle Klus
-categories: baking forall cake
-backlink: /posts/kyles-cookbook/baking/vegan/moc/Vegan-Baking-Recipes.html
+categories: baking omnivoreandherbivore cake
+backlink: /posts/kyles-cookbook/baking/vegan/moc/Herbivore-Baking-Recipes.html
 tags: status/not_tree
 ---
 

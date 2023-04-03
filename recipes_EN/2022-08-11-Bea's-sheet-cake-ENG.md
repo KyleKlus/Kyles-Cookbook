@@ -2,8 +2,8 @@
 title: Bea's sheet cake
 created: Th 11.08.2022, 11:52:11
 author: Kyle Klus
-categories: baking notvegan cake
-backlink: /posts/kyles-cookbook/baking/notvegan/moc/Baking-Recipes.html
+categories: baking omnivore cake
+backlink: /posts/kyles-cookbook/baking/omnivore/moc/Baking-Recipes.html
 tags: status/not_tree
 ---
 

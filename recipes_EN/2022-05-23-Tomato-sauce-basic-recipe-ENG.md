@@ -2,8 +2,8 @@
 title: Tomato sauce (basic recipe)
 created: Tu 23.05.2022, 17:13:11
 author: Kyle Klus
-categories: cooking vegan savory
-backlink: /posts/kyles-cookbook/baking/vegan/moc/Vegan-Baking-Recipes.html
+categories: cooking herbivore savory
+backlink: /posts/kyles-cookbook/baking/vegan/moc/Herbivore-Baking-Recipes.html
 tags: status/not_tree
 ---
 

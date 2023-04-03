@@ -1,13 +1,13 @@
 ---
-title: Lemon cake (Vegan)
+title: Lemon cake (Herbivore)
 created: Tu 23.05.2022, 17:06:11
 author: Kyle Klus
-categories: baking vegan cake
-backlink: /posts/kyles-cookbook/baking/vegan/moc/Vegan-Baking-Recipes.html
+categories: baking herbivore cake
+backlink: /posts/kyles-cookbook/baking/vegan/moc/Herbivore-Baking-Recipes.html
 tags: status/not_tree
 ---
 
-# Lemon cake (Vegan)
+# Lemon cake (Herbivore)
 
 ## Ingredients
 

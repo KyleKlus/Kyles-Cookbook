@@ -2,8 +2,8 @@
 title: Pizza (Einfache Variante)
 created: Tu 23.05.2022, 17:06:11
 author: Kyle Klus
-categories: cooking forall savory
-backlink: /posts/kyles-cookbook/cooking/meatbased/moc/Cooking-Recipes.html
+categories: kochen fueralle herzhaft
+backlink: /posts/kyles-cookbook/kochen/fleischbasiert/moc/kochen-Recipes.html
 tags: status/not_tree
 ---
 
@@ -13,7 +13,7 @@ tags: status/not_tree
 
 | Menge            | Zutaten                            |
 | ---------------- | ---------------------------------- |
-| 1                | Tomatensoße (siehe [Grundrezept](/posts/kyles-cookbook/cooking/vegan/savory/recipe/Tomatensoße-Grundrezept.html)) |
+| 1                | Tomatensoße (siehe [Grundrezept](/posts/kyles-cookbook/kochen/vegan/herzhaft/recipe/Tomatensoße-Grundrezept.html)) |
 | 375 g             | Mehl                               |
 | 213 g             | Lauwarmes Wasser                   |
 | 11 g              | Salz                               |

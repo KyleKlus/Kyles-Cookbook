@@ -2,8 +2,8 @@
 title: Aioli (Knoblauchsauce)
 created: Th 11.08.2022, 12:24:11
 author: Kyle Klus
-categories: cooking vegan sauces
-backlink: /posts/kyles-cookbook/cooking/vegan/moc/Vegan-cooking-Recipes.html
+categories: kochen vegan sauces
+backlink: /posts/kyles-cookbook/kochen/vegan/moc/Vegan-kochen-Recipes.html
 tags: status/not_tree
 ---
 

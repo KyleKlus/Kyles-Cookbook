@@ -2,8 +2,8 @@
 title: Aioli (garlic sauce)
 created: Th 11.08.2022, 12:24:11
 author: Kyle Klus
-categories: cooking vegetarian sauces
-backlink: /posts/kyles-cookbook/cooking/vegetarian/moc/Vegetarian-Cooking-Recipes.html
+categories: cooking ovolactoherbivore sauces
+backlink: /posts/kyles-cookbook/cooking/ovolactoherbivore/moc/Vegetarian-Cooking-Recipes.html
 tags: status/not_tree
 ---
 
