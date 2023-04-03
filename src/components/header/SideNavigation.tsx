@@ -43,8 +43,13 @@ export default function SideNavigation(
         />
         <NavLink
           className={styles.sideNavLink}
-          pathName="/Kyles-Cookbook"
-          displayText="Cookbook"
+          pathName="/Kyles-Cookbook/en"
+          displayText="Cookbook 🇬🇧"
+        />
+        <NavLink
+          className={styles.sideNavLink}
+          pathName="/Kyles-Cookbook/de"
+          displayText="Cookbook 🇩🇪"
         />
       </Card>
 
