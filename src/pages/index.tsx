@@ -30,20 +30,8 @@ const ThemeButton = dynamic(() => import('@/components/buttons/ThemeButton'), {
   ssr: false,
 });
 
-const LanguageSelector = dynamic(() => import('@/components/buttons/LanguageSelector'), {
-  ssr: false,
-});
 
-export default function MarkdownPostListTemplate(props: { posts: IRecipePost[], postCategories: string[] }) {
-  function makeFirstLetterUppercase(name: string) {
-    const nameLetters: string[] = []
-    nameLetters.push(name[0].toUpperCase())
-
-    for (let i = 1; i < name.length; i++) {
-      nameLetters.push(name[i]);
-    }
-    return nameLetters.join('')
-  }
+export default function Home(props: { posts: IRecipePost[], postCategories: string[] }) {
 
   return (
     <>
@@ -98,33 +86,19 @@ export default function MarkdownPostListTemplate(props: { posts: IRecipePost[], 
           displayText="About"
         />
         <ThemeButton />
-        {/* <LanguageSelector /> */}
       </Header>
       <Main>
         <div id={'top'} />
         <Content id='markdownSection' className={[styles.cookbookIndex, 'applyHeaderOffset'].join(' ')}>
           <Text>
             <h1>Kyle&apos;s Cookbook</h1>
-            {props.postCategories.map((category, i) => {
-              const categoryPosts = props.posts.filter(post => post.categories.filter(postCategory => postCategory === category).length !== 0)
+            <Card>
+              <ul>
+                <li><Link className={[styles.entryLink].join(' ')} href={'/en'}>{'English Version'}</Link></li>
+                <li><Link className={[styles.entryLink].join(' ')} href={'/de'}>{'German Version'}</Link></li>
+              </ul>
 
-              return (
-                <div key={i}>
-                  <h2>{makeFirstLetterUppercase(category)}</h2>
-                  {categoryPosts.length !== 0 && categoryPosts.map((post, j) => {
-
-                    return (
-                      <Card key={j} className={[styles.entry].join(' ')}>
-                        <Link className={[styles.entryLink].join(' ')} href={post.url}>{makeFirstLetterUppercase(post.title)}</Link>
-                        <p className={[styles.entryInfo].join(' ')}>{'Author: ' + post.author + ' | ' + post.categories.join(' | ')}</p>
-                        <p className={[styles.entryInfo].join(' ')}>{'Author: ' + post.author}</p>
-                        <p className={[styles.entryInfo].join(' ')}>{'Categories: ' + post.categories.join(' | ')}</p>
-                      </Card>
-                    )
-                  })}
-                </div>
-              )
-            })}
+            </Card>
           </Text>
         </Content>
         <Footer>
@@ -155,98 +129,4 @@ export default function MarkdownPostListTemplate(props: { posts: IRecipePost[], 
       </Main>
     </>
   );
-}
-
-export async function getStaticProps() {
-  // variables
-  const serverFolder = 'recipes_EN/'
-  const delimiter = '---'
-
-  // get markdown files
-  const filenames = fs.readdirSync(serverFolder).filter(file => file.endsWith('.md'))
-
-  // Convert markdown files into posts
-  const posts: IRecipePost[] = filenames.map((filename) => {
-    let url = filename.replace('.md', '')
-    url = '/' + url
-    const filepath = `${serverFolder}${filename}`
-    let fileContent = fs.readFileSync(filepath, 'utf-8').toString();
-    const frontmatter = matter(fileContent).data
-    const startOfFrontmatter = fileContent.indexOf(delimiter)
-    const endOfFrontmatter = fileContent.indexOf(delimiter, startOfFrontmatter + delimiter.length) + delimiter.length
-    fileContent = fileContent.substring(endOfFrontmatter, fileContent.length)
-
-    let categoriesString: string = frontmatter.categories
-    const categories: string[] = categoriesString.split(' ')
-    url = `/${categories.join('/')}` + url
-
-    return {
-      filename: filename,
-      filepath: filepath,
-      url: url,
-      title: frontmatter.title,
-      author: frontmatter.author,
-      categories: categories,
-      created: frontmatter.created,
-      content: fileContent,
-    }
-  })
-  const categorizedPosts: IRecipeCategory[] = [];
-
-  posts.forEach(post => {
-    const visitedCategoryTrace: IRecipeCategory[] = [];
-
-    post.categories.forEach((category, index) => {
-      if (category === 'moc') { return }
-
-      if (visitedCategoryTrace.length === 0) {
-        const filteredCategory = categorizedPosts.filter(e => e.title === category)
-        const postsInCategory = []
-        if (index === post.categories.length - 1) { postsInCategory.push(post) }
-
-        if (filteredCategory.length === 0) {
-          categorizedPosts.push({
-            title: category,
-            url: `/${category}`,
-            otherCategories: [],
-            posts: postsInCategory
-          })
-
-          visitedCategoryTrace.push(categorizedPosts[categorizedPosts.length - 1])
-        } else {
-          if (postsInCategory.length !== 0) { filteredCategory[0].posts.push(postsInCategory[0]) }
-
-          visitedCategoryTrace.push(filteredCategory[0])
-        }
-      } else {
-        const lastVisitedCategory = visitedCategoryTrace[visitedCategoryTrace.length - 1]
-        const filteredCategory = lastVisitedCategory.otherCategories.filter(e => e.title === category)
-        const postsInCategory = []
-        if (index === post.categories.length - 1) { postsInCategory.push(post) }
-
-        if (filteredCategory.length === 0) {
-
-          lastVisitedCategory.otherCategories.push({
-            title: category,
-            url: `/${visitedCategoryTrace.map(e => e.title).join('/')}/${category}`,
-            otherCategories: [],
-            posts: postsInCategory
-          })
-
-          visitedCategoryTrace.push(lastVisitedCategory.otherCategories[lastVisitedCategory.otherCategories.length - 1])
-        } else {
-          if (postsInCategory.length !== 0) { filteredCategory[0].posts.push(postsInCategory[0]) }
-
-          visitedCategoryTrace.push(filteredCategory[0])
-        }
-      }
-    })
-  })
-
-  return {
-    props: {
-      posts: posts,
-      postCategories: categorizedPosts.map(e => e.title),
-    }
-  }
 }

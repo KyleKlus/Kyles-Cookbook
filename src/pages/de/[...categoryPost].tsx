@@ -49,7 +49,7 @@ export default function MarkdownPostListTemplate(props: { post: IRecipePost }) {
                 <title>Kyle Klus | {props.post.title}</title>
                 <meta
                     name="description"
-                    content="Website of Kyle Klus."
+                    content="Kochbucheintrag von Kyle Klus."
                 />
                 <meta
                     name="viewport"
@@ -87,13 +87,13 @@ export default function MarkdownPostListTemplate(props: { post: IRecipePost }) {
                 />
                 <ScrollNavLink
                     className={[headerStyles.headerNavLink].join(' ')}
-                    elementName="/"
-                    displayText="Cookbook"
+                    elementName="/de"
+                    displayText="Kochbuch"
                 />
                 <ScrollNavLink
                     className={[headerStyles.headerNavLink].join(' ')}
                     elementName="https://majorenkidu.github.io/#aboutPage"
-                    displayText="About"
+                    displayText="Über mich"
                 />
                 <ThemeButton />
                 {/* <LanguageSelector /> */}
@@ -117,15 +117,15 @@ export default function MarkdownPostListTemplate(props: { post: IRecipePost }) {
                     <ScrollNavLink
                         className={footerStyles.footerNavLink}
                         elementName="https://majorenkidu.github.io/#aboutPage"
-                        displayText="About"
+                        displayText="Über mich"
                     />
                     <Link href={'https://github.com/MajorEnkidu'} className={footerStyles.footerNavLink}>GitHub</Link>
                     <Link href={'https://ko-fi.com/majorenkidu'} className={footerStyles.footerNavLink}>Ko-fi</Link>
-                    <Link href={'mailto:kyle.klus.2@gmail.com'} className={footerStyles.footerNavLink}>Contact</Link>
+                    <Link href={'mailto:kyle.klus.2@gmail.com'} className={footerStyles.footerNavLink}>Kontakt</Link>
                     <NavLink
                         className={footerStyles.sideNavLink + ' ' + footerStyles.footerNavLink}
                         pathName="https://majorenkidu.github.io/privacy"
-                        displayText="Privacy"
+                        displayText="Privatsphäre"
                     />
                 </Footer>
             </Main>
@@ -135,7 +135,7 @@ export default function MarkdownPostListTemplate(props: { post: IRecipePost }) {
 
 export async function getStaticPaths() {
     // variables
-    const serverFolder = 'recipes_EN/'
+    const serverFolder = 'recipes_DE/'
     const delimiter = '---'
 
     // get markdown files
@@ -154,7 +154,7 @@ export async function getStaticPaths() {
 
         let categoriesString: string = frontmatter.categories
         const categories: string[] = categoriesString.split(' ')
-        url = `/${categories.join('/')}` + url
+        url = `/de/${categories.join('/')}` + url
         return url
     })
 
@@ -168,7 +168,7 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }: GetStaticPropsContext) {
 
     // variables
-    const serverFolder = 'recipes_EN/'
+    const serverFolder = 'recipes_DE/'
     const delimiter = '---'
 
     // get markdown files
@@ -187,7 +187,7 @@ export async function getStaticProps({ params }: GetStaticPropsContext) {
 
     let categoriesString: string = frontmatter.categories
     const categories: string[] = categoriesString.split(' ')
-    url = `/${categories.join('/')}` + url
+    url = `/de/${categories.join('/')}` + url
 
     // Convert markdown files into posts
     const post: IRecipePost = {
