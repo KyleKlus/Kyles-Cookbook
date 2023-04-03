@@ -2,8 +2,8 @@
 title: Rumkugeln
 created: Tu 23.05.2022, 17:06:11
 author: Kyle Klus
-categories: baking nichtvegan other
-backlink: /posts/kyles-cookbook/baking/nichtvegan/moc/Baking-Recipes.html
+categories: backen nichtvegan sonstiges
+backlink: /posts/kyles-cookbook/backen/nichtvegan/moc/Baking-Recipes.html
 tags: status/not_tree
 ---
 

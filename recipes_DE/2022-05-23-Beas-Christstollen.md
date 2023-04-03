@@ -2,8 +2,8 @@
 title: Beas saftiger Christstollen
 created: Tu 23.05.2022, 17:06:11
 author: Kyle Klus
-categories: baking nichtvegan cake
-backlink: /posts/kyles-cookbook/baking/nichtvegan/moc/Baking-Recipes.html
+categories: backen nichtvegan kuchen
+backlink: /posts/kyles-cookbook/backen/nichtvegan/moc/Baking-Recipes.html
 tags: status/not_tree
 ---
 
