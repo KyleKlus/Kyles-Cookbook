@@ -2,8 +2,8 @@
 title: Pizza Komplexe Variante
 created: Tu 23.05.2022, 17:06:11
 author: Kyle Klus
-categories: cooking forall savory
-backlink: /posts/kyles-cookbook/cooking/meatbased/moc/Cooking-Recipes.html
+categories: kochen fueralle herzhaft
+backlink: /posts/kyles-cookbook/kochen/fleischbasiert/moc/kochen-Recipes.html
 tags: status/not_tree
 ---
 
@@ -24,7 +24,7 @@ tags: status/not_tree
 | 500 g             | Mehl                            |
 | 300 g             | Wasser                          |
 | 20 g              | Salz                            |
-| 1                | Tomatensoße (siehe [Grundrezept](/posts/kyles-cookbook/cooking/vegan/savory/recipe/Tomatensoße-Grundrezept.html)) |
+| 1                | Tomatensoße (siehe [Grundrezept](/posts/kyles-cookbook/kochen/vegan/herzhaft/recipe/Tomatensoße-Grundrezept.html)) |
 | -                | Belag                           |
 | -                | Oregano                         |
 

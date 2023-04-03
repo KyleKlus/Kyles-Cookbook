@@ -2,18 +2,18 @@
 title: Pasta mit Tomatensoße
 created: Tu 23.05.2022, 17:06:11
 author: Kyle Klus
-categories: cooking meatbased savory
-backlink: /posts/kyles-cookbook/cooking/meatbased/moc/Cooking-Recipes.html
+categories: kochen fleischbasiert herzhaft
+backlink: /posts/kyles-cookbook/kochen/fleischbasiert/moc/kochen-Recipes.html
 tags: status/not_tree
 ---
 
-# Pasta mit Tomatenso�e
+# Pasta mit Tomatenso�e
 
 ## Zutaten (ca. 3-4 Portionen)
 
 | Menge            | Zutaten                         |
 | ---------------- | ------------------------------- |
-| 2                | Tomatensoße (siehe [Grundrezept](/posts/kyles-cookbook/cooking/vegan/savory/recipe/Tomatensoße-Grundrezept.html)) |
+| 2                | Tomatensoße (siehe [Grundrezept](/posts/kyles-cookbook/kochen/vegan/herzhaft/recipe/Tomatensoße-Grundrezept.html)) |
 | -                | Käse                            |
 | 1                | Lauchzwiebeln                   |
 | 1                | Paprika **Optional**            |

@@ -2,8 +2,8 @@
 title: Seitan (chicken meat substitute)
 created: Th 11.08.2022, 13:27:11
 author: Kyle Klus
-categories: cooking forall extraingredients
-backlink: /posts/kyles-cookbook/cooking/vegan/moc/Vegan-Cooking-Recipes.html
+categories: cooking omnivoreandherbivore extraingredients
+backlink: /posts/kyles-cookbook/cooking/vegan/moc/Herbivore-Cooking-Recipes.html
 tags: status/not_tree
 ---
 

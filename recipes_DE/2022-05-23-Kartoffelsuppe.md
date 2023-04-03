@@ -2,8 +2,8 @@
 title: Kartoffelsuppe
 created: Tu 23.05.2022, 17:09:11
 author: Kyle Klus
-categories: cooking meatbased savory
-backlink: /posts/kyles-cookbook/cooking/meatbased/moc/Cooking-Recipes.html
+categories: kochen fleischbasiert herzhaft
+backlink: /posts/kyles-cookbook/kochen/fleischbasiert/moc/kochen-Recipes.html
 tags: status/not_tree
 ---
 

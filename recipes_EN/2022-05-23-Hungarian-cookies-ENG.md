@@ -2,8 +2,8 @@
 title: Hungarian cookies
 created: Tu 23.05.2022, 17:06:11
 author: Kyle Klus
-categories: baking notvegan cookies
-backlink: /posts/kyles-cookbook/baking/notvegan/moc/Baking-Recipes.html
+categories: baking omnivore cookies
+backlink: /posts/kyles-cookbook/baking/omnivore/moc/Baking-Recipes.html
 tags: status/not_tree
 ---
 

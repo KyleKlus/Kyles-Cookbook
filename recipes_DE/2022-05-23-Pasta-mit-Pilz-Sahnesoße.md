@@ -2,12 +2,12 @@
 title: Pasta mit Pilz SahnesoÃŸe
 created: Tu 23.05.2022, 17:06:11
 author: Kyle Klus
-categories:  cooking vegetarian savory
-backlink: /posts/kyles-cookbook/cooking/vegetarian/moc/Vegetarian-Cooking-Recipes.html
+categories:  kochen vegetarisch herzhaft
+backlink: /posts/kyles-cookbook/kochen/vegetarisch/moc/Vegetarian-kochen-Recipes.html
 tags: status/not_tree
 ---
 
-# Pasta mit Pilz Sahnesoße
+# Pasta mit Pilz Sahnesoï¿½e
 
 ## Zutaten (ca. 3-4 Portionen)
 

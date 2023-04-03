@@ -2,18 +2,18 @@
 title: Lauchzwiebel Öl Nudeln
 created: Th 11.08.2022, 13:27:11
 author: Kyle Klus
-categories: cooking vegan savory
+categories: kochen vegan herzhaft
 backlink: /posts/kyles-cookbook/baking/vegan/moc/Vegan-Baking-Recipes.html
 tags: status/not_tree
 ---
 
-# Lauchzwiebel �l Nudeln
+# Lauchzwiebel �l Nudeln
 
 ## Zutaten
 
 | Menge  | Zutaten                         |
 | ------ | ------------------------------- |
-| 1 Kelle  | [Lauchzwiebel-Öl](/posts/kyles-cookbook/cooking/forall/sauces/recipe/Scallion-Oil.html) |
+| 1 Kelle  | [Lauchzwiebel-Öl](/posts/kyles-cookbook/kochen/fueralle/sauces/recipe/Scallion-Oil.html) |
 | - | Nudeln |
 | 6 EL | Sojasoße |
 | 4 TL | Zucker |

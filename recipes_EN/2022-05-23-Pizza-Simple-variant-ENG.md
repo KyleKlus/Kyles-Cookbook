@@ -2,8 +2,8 @@
 title: Pizza (Simple variant)
 created: Tu 23.05.2022, 17:06:11
 author: Kyle Klus
-categories: cooking forall savory
-backlink: /posts/kyles-cookbook/cooking/meatbased/moc/Cooking-Recipes.html
+categories: cooking omnivoreandherbivore savory
+backlink: /posts/kyles-cookbook/cooking/carnivore/moc/Cooking-Recipes.html
 tags: status/not_tree
 ---
 

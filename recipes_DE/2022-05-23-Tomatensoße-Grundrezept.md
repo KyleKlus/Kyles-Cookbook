@@ -2,12 +2,12 @@
 title: TomatensoÃŸe (Grundrezept)
 created: Tu 23.05.2022, 17:13:11
 author: Kyle Klus
-categories: cooking vegan savory
+categories: kochen vegan herzhaft
 backlink: /posts/kyles-cookbook/baking/vegan/moc/Vegan-Baking-Recipes.html
 tags: status/not_tree
 ---
 
-# Tomatensoße (Grundrezept)
+# Tomatensoï¿½e (Grundrezept)
 
 ## Zutaten (ca. 2 Portionen)
 

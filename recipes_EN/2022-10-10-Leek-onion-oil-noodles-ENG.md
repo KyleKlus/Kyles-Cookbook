@@ -2,8 +2,8 @@
 title: Leek onion oil noodles
 created: Th 11.08.2022, 13:27:11
 author: Kyle Klus
-categories: cooking vegan savory
-backlink: /posts/kyles-cookbook/baking/vegan/moc/Vegan-Baking-Recipes.html
+categories: cooking herbivore savory
+backlink: /posts/kyles-cookbook/baking/vegan/moc/Herbivore-Baking-Recipes.html
 tags: status/not_tree
 ---
 
@@ -13,7 +13,7 @@ tags: status/not_tree
 
 | Quantity | Ingredients |
 | ------ | ------------------------------- |
-| 1 ladle | [spring onion-Ã-l](/posts/kyles-cookbook/cooking/forall/sauces/recipe/Scallion-Oil.html) |
+| 1 ladle | [spring onion-ï¿½-l](/posts/kyles-cookbook/cooking/omnivoreandherbivore/sauces/recipe/Scallion-Oil.html) |
 | - | Noodles |
 | 6 tbsp | Soy sauce |
 | 4 tsp | Sugar |

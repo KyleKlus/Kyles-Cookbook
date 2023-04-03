@@ -2,8 +2,8 @@
 title: Rum balls
 created: Tu 23.05.2022, 17:06:11
 author: Kyle Klus
-categories: baking notvegan other
-backlink: /posts/kyles-cookbook/baking/notvegan/moc/Baking-Recipes.html
+categories: baking omnivore other
+backlink: /posts/kyles-cookbook/baking/omnivore/moc/Baking-Recipes.html
 tags: status/not_tree
 ---
 

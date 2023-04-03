@@ -2,8 +2,8 @@
 title: Chilli Sin Carne
 created: Tu 23.05.2022, 17:06:11
 author: Kyle Klus
-categories: cooking vegan savory
-backlink: /posts/kyles-cookbook/cooking/vegan/moc/Vegan-Cooking-Recipes.html
+categories: cooking herbivore savory
+backlink: /posts/kyles-cookbook/cooking/vegan/moc/Herbivore-Cooking-Recipes.html
 tags: status/not_tree
 ---
 
