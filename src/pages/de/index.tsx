@@ -90,12 +90,12 @@ export default function MarkdownPostListTemplate(props: { posts: IRecipePost[], 
         <ScrollNavLink
           className={headerStyles.headerNavLink}
           elementName="/de"
-          displayText="Cookbook"
+          displayText="Kochbuch"
         />
         <ScrollNavLink
           className={headerStyles.headerNavLink}
           elementName="https://majorenkidu.github.io/#aboutPage"
-          displayText="About"
+          displayText="Über mich"
         />
         <ThemeButton />
       </Header>
@@ -103,7 +103,7 @@ export default function MarkdownPostListTemplate(props: { posts: IRecipePost[], 
         <div id={'top'} />
         <Content id='markdownSection' className={[styles.cookbookIndex, 'applyHeaderOffset'].join(' ')}>
           <Text>
-            <h1>Kyle&apos;s Cookbook</h1>
+            <h1>Kyle&apos;s Kochbuch</h1>
             {props.postCategories.map((category, i) => {
               const categoryPosts = props.posts.filter(post => post.categories.filter(postCategory => postCategory === category).length !== 0)
 
@@ -115,9 +115,9 @@ export default function MarkdownPostListTemplate(props: { posts: IRecipePost[], 
                     return (
                       <Card key={j} className={[styles.entry].join(' ')}>
                         <Link className={[styles.entryLink].join(' ')} href={post.url}>{makeFirstLetterUppercase(post.title)}</Link>
-                        <p className={[styles.entryInfo].join(' ')}>{'Author: ' + post.author + ' | ' + post.categories.join(' | ')}</p>
+                        <p className={[styles.entryInfo].join(' ')}>{'Autor: ' + post.author + ' | ' + post.categories.join(' | ')}</p>
                         <p className={[styles.entryInfo].join(' ')}>{'Author: ' + post.author}</p>
-                        <p className={[styles.entryInfo].join(' ')}>{'Categories: ' + post.categories.join(' | ')}</p>
+                        <p className={[styles.entryInfo].join(' ')}>{'Kategorien: ' + post.categories.join(' | ')}</p>
                       </Card>
                     )
                   })}
@@ -140,15 +140,15 @@ export default function MarkdownPostListTemplate(props: { posts: IRecipePost[], 
           <ScrollNavLink
             className={footerStyles.footerNavLink}
             elementName="https://majorenkidu.github.io/#aboutPage"
-            displayText="About"
+            displayText="Über mich"
           />
           <Link href={'https://github.com/MajorEnkidu'} className={footerStyles.footerNavLink}>GitHub</Link>
           <Link href={'https://ko-fi.com/majorenkidu'} className={footerStyles.footerNavLink}>Ko-fi</Link>
-          <Link href={'mailto:kyle.klus.2@gmail.com'} className={footerStyles.footerNavLink}>Contact</Link>
+          <Link href={'mailto:kyle.klus.2@gmail.com'} className={footerStyles.footerNavLink}>Kontakt</Link>
           <NavLink
             className={footerStyles.sideNavLink + ' ' + footerStyles.footerNavLink}
             pathName="https://majorenkidu.github.io/privacy"
-            displayText="Privacy"
+            displayText="Privatsphäre"
           />
         </Footer>
       </Main>
