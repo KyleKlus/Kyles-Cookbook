@@ -19,6 +19,7 @@ import dynamic from 'next/dynamic';
 
 import Link from 'next/link';
 import NavLink from '@/components/header/NavLink';
+import Card from '@/components/Card';
 
 const ThemeButton = dynamic(() => import('@/components/buttons/ThemeButton'), {
   ssr: false,
@@ -29,6 +30,29 @@ const LanguageSelector = dynamic(() => import('@/components/buttons/LanguageSele
 });
 
 export default function Home() {
+
+  function getSideNavChildren() {
+    return (
+      <Card className={sideNavStyles.menuCard}>
+        <h4>Other Sites</h4>
+        <NavLink
+          className={sideNavStyles.sideNavLink}
+          pathName="/projects"
+          displayText="Projects"
+        />
+        <NavLink
+          className={sideNavStyles.sideNavLink}
+          pathName="/Kyles-Cookbook/en"
+          displayText="Cookbook 🇬🇧"
+        />
+        <NavLink
+          className={sideNavStyles.sideNavLink}
+          pathName="/Kyles-Cookbook/de"
+          displayText="Cookbook 🇩🇪"
+        />
+      </Card>
+    );
+  }
 
   return (
     <>
@@ -66,7 +90,7 @@ export default function Home() {
           href={process.env.basePath + "/favicon-16x16.png"}
         />
       </Head>
-      <Header>
+      <Header sideNavChildren={getSideNavChildren()}>
         <ScrollNavLink
           className={headerStyles.headerNavLink}
           elementName="https://majorenkidu.github.io/#heroPage"

@@ -33,26 +33,6 @@ export default function SideNavigation(
           displayText="About"
         />
       </Card>
-
-      <Card className={styles.menuCard}>
-        <h4>Other Sites</h4>
-        <NavLink
-          className={styles.sideNavLink}
-          pathName="/projects"
-          displayText="Projects"
-        />
-        <NavLink
-          className={styles.sideNavLink}
-          pathName="/Kyles-Cookbook/en"
-          displayText="Cookbook 🇬🇧"
-        />
-        <NavLink
-          className={styles.sideNavLink}
-          pathName="/Kyles-Cookbook/de"
-          displayText="Cookbook 🇩🇪"
-        />
-      </Card>
-
       {props.children}
     </nav>
   );
