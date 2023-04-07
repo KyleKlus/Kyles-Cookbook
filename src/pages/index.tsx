@@ -14,6 +14,7 @@ import Text from '@/components/Text';
 import headerStyles from '@/styles/components/header/Header.module.css'
 import styles from '@/styles/CookbookIndex.module.css'
 import footerStyles from '@/styles/components/footer/Footer.module.css'
+import sideNavStyles from '@/styles/components/header/SideNavigation.module.css'
 
 import ScrollNavLink from '@/components/header/ScrollNavLink';
 import dynamic from 'next/dynamic';
@@ -32,7 +33,28 @@ const ThemeButton = dynamic(() => import('@/components/buttons/ThemeButton'), {
 
 
 export default function Home(props: { posts: IRecipePost[], postCategories: string[] }) {
-
+  function getSideNavChildren() {
+    return (
+      <Card className={sideNavStyles.menuCard}>
+        <h4>Other Sites</h4>
+        <NavLink
+          className={sideNavStyles.sideNavLink}
+          pathName="https://majorenkidu.github.io/projects"
+          displayText="Projects"
+        />
+        <NavLink
+          className={sideNavStyles.sideNavLink}
+          pathName="/en"
+          displayText="Cookbook 🇬🇧"
+        />
+        <NavLink
+          className={sideNavStyles.sideNavLink}
+          pathName="/de"
+          displayText="Cookbook 🇩🇪"
+        />
+      </Card>
+    );
+  }
   return (
     <>
       <Head>
@@ -69,7 +91,7 @@ export default function Home(props: { posts: IRecipePost[], postCategories: stri
           href={process.env.basePath + "/favicon-16x16.png"}
         />
       </Head>
-      <Header>
+      <Header sideNavChildren={getSideNavChildren()}>
         <ScrollNavLink
           className={headerStyles.headerNavLink}
           elementName="https://majorenkidu.github.io/#heroPage"

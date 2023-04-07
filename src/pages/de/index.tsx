@@ -14,6 +14,7 @@ import Text from '@/components/Text';
 import headerStyles from '@/styles/components/header/Header.module.css'
 import styles from '@/styles/CookbookIndex.module.css'
 import footerStyles from '@/styles/components/footer/Footer.module.css'
+import sideNavStyles from '@/styles/components/header/SideNavigation.module.css'
 
 import ScrollNavLink from '@/components/header/ScrollNavLink';
 import dynamic from 'next/dynamic';
@@ -35,6 +36,29 @@ const LanguageSelector = dynamic(() => import('@/components/buttons/LanguageSele
 });
 
 export default function MarkdownPostListTemplate(props: { posts: IRecipePost[], postCategories: string[] }) {
+  function getSideNavChildren() {
+    return (
+      <Card className={sideNavStyles.menuCard}>
+        <h4>Other Sites</h4>
+        <NavLink
+          className={sideNavStyles.sideNavLink}
+          pathName="https://majorenkidu.github.io/projects"
+          displayText="Projekte"
+        />
+        <NavLink
+          className={sideNavStyles.sideNavLink}
+          pathName="/en"
+          displayText="Cookbook 🇬🇧"
+        />
+        <NavLink
+          className={sideNavStyles.sideNavLink}
+          pathName="/de"
+          displayText="Kochbuch 🇩🇪"
+        />
+      </Card>
+    );
+  }
+
   function makeFirstLetterUppercase(name: string) {
     const nameLetters: string[] = []
     nameLetters.push(name[0].toUpperCase())
@@ -81,7 +105,7 @@ export default function MarkdownPostListTemplate(props: { posts: IRecipePost[], 
           href={process.env.basePath + "/favicon-16x16.png"}
         />
       </Head>
-      <Header>
+      <Header sideNavChildren={getSideNavChildren()}>
         <ScrollNavLink
           className={headerStyles.headerNavLink}
           elementName="https://majorenkidu.github.io/#heroPage"

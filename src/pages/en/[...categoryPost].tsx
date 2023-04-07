@@ -42,7 +42,28 @@ const LanguageSelector = dynamic(() => import('@/components/buttons/LanguageSele
 });
 
 export default function MarkdownPostListTemplate(props: { post: IRecipePost }) {
-
+    function getSideNavChildren() {
+        return (
+            <Card className={sideNavStyles.menuCard}>
+                <h4>Other Sites</h4>
+                <NavLink
+                    className={sideNavStyles.sideNavLink}
+                    pathName="https://majorenkidu.github.io/projects"
+                    displayText="Projects"
+                />
+                <NavLink
+                    className={sideNavStyles.sideNavLink}
+                    pathName="/en"
+                    displayText="Cookbook 🇬🇧"
+                />
+                <NavLink
+                    className={sideNavStyles.sideNavLink}
+                    pathName="/de"
+                    displayText="Cookbook 🇩🇪"
+                />
+            </Card>
+        );
+    }
     return (
         <>
             <Head>
@@ -79,7 +100,7 @@ export default function MarkdownPostListTemplate(props: { post: IRecipePost }) {
                     href={process.env.basePath + "/favicon-16x16.png"}
                 />
             </Head>
-            <Header>
+            <Header sideNavChildren={getSideNavChildren()}>
                 <ScrollNavLink
                     className={[headerStyles.headerNavLink].join(' ')}
                     elementName="https://majorenkidu.github.io/#heroPage"
