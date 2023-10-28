@@ -9,12 +9,10 @@ import Text from '@/components/Text';
 
 import headerStyles from '@/styles/components/header/Header.module.css'
 import styles from '@/styles/CookbookIndex.module.css'
-import sideNavStyles from '@/styles/components/header/SideNavigation.module.css'
 
 import ScrollNavLink from '@/components/links/ScrollNavLink';
 import dynamic from 'next/dynamic';
 
-import Link from 'next/link';
 import Card from '@/components/Card';
 import NavLink from '@/components/links/NavLink';
 import IRecipePost from '@/interfaces/IRecipePost';
@@ -24,32 +22,10 @@ const ThemeButton = dynamic(() => import('@/components/buttons/ThemeButton'), {
 });
 
 export default function Home(props: { posts: IRecipePost[], postCategories: string[] }) {
-  function getSideNavChildren() {
-    return (
-      <Card className={sideNavStyles.menuCard}>
-        <h4>Other Sites</h4>
-        <NavLink
-          className={sideNavStyles.sideNavLink}
-          pathName="https://majorenkidu.github.io/projects"
-          displayText="Projects"
-        />
-        <NavLink
-          className={sideNavStyles.sideNavLink}
-          pathName="/en"
-          displayText="Cookbook 🇬🇧"
-        />
-        <NavLink
-          className={sideNavStyles.sideNavLink}
-          pathName="/de"
-          displayText="Cookbook 🇩🇪"
-        />
-      </Card>
-    );
-  }
   return (
     <>
       <Head>
-        <title>Kyle Klus | Cookbook</title>
+        <title>Kyle Klus | Cookbook 🧑‍🍳</title>
         <meta
           name="description"
           content="Cookbook of Kyle Klus."
@@ -82,7 +58,7 @@ export default function Home(props: { posts: IRecipePost[], postCategories: stri
           href={process.env.basePath + "/favicon-16x16.png"}
         />
       </Head>
-      <Header sideNavChildren={getSideNavChildren()}>
+      <Header>
         <ScrollNavLink
           className={headerStyles.headerNavLink}
           elementName="https://majorenkidu.github.io/#heroPage"

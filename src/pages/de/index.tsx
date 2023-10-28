@@ -11,7 +11,6 @@ import Text from '@/components/Text';
 
 import headerStyles from '@/styles/components/header/Header.module.css'
 import styles from '@/styles/CookbookIndex.module.css'
-import sideNavStyles from '@/styles/components/header/SideNavigation.module.css'
 
 import ScrollNavLink from '@/components/links/ScrollNavLink';
 import dynamic from 'next/dynamic';
@@ -19,7 +18,6 @@ import dynamic from 'next/dynamic';
 import Link from 'next/link';
 import matter from 'gray-matter';
 import Card from '@/components/Card';
-import NavLink from '@/components/links/NavLink';
 import IRecipePost from '@/interfaces/IRecipePost';
 import IRecipeCategory from '@/interfaces/IRecipeCategory';
 
@@ -28,29 +26,6 @@ const ThemeButton = dynamic(() => import('@/components/buttons/ThemeButton'), {
 });
 
 export default function MarkdownPostListTemplate(props: { posts: IRecipePost[], postCategories: string[] }) {
-  function getSideNavChildren() {
-    return (
-      <Card className={sideNavStyles.menuCard}>
-        <h4>Other Sites</h4>
-        <NavLink
-          className={sideNavStyles.sideNavLink}
-          pathName="https://majorenkidu.github.io/projects"
-          displayText="Projekte"
-        />
-        <NavLink
-          className={sideNavStyles.sideNavLink}
-          pathName="/en"
-          displayText="Cookbook 🇬🇧"
-        />
-        <NavLink
-          className={sideNavStyles.sideNavLink}
-          pathName="/de"
-          displayText="Kochbuch 🇩🇪"
-        />
-      </Card>
-    );
-  }
-
   function makeFirstLetterUppercase(name: string) {
     const nameLetters: string[] = []
     nameLetters.push(name[0].toUpperCase())
@@ -64,7 +39,7 @@ export default function MarkdownPostListTemplate(props: { posts: IRecipePost[], 
   return (
     <>
       <Head>
-        <title>Kyle Klus | Kochbuch</title>
+        <title>Kyle Klus | Kochbuch 🧑‍🍳</title>
         <meta
           name="description"
           content="Kochbuch von Kyle Klus."
@@ -97,7 +72,7 @@ export default function MarkdownPostListTemplate(props: { posts: IRecipePost[], 
           href={process.env.basePath + "/favicon-16x16.png"}
         />
       </Head>
-      <Header sideNavChildren={getSideNavChildren()}>
+      <Header>
         <ScrollNavLink
           className={headerStyles.headerNavLink}
           elementName="https://majorenkidu.github.io/#heroPage"
