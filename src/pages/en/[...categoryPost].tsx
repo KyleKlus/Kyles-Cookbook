@@ -15,29 +15,19 @@ import Main from '@/components/Main';
 
 import headerStyles from '@/styles/components/header/Header.module.css'
 import sideNavStyles from '@/styles/components/header/SideNavigation.module.css'
-import footerStyles from '@/styles/components/footer/Footer.module.css'
 
-import ScrollNavLink from '@/components/header/ScrollNavLink';
+import ScrollNavLink from '@/components/links/ScrollNavLink';
 import dynamic from 'next/dynamic';
 
 import Card from '@/components/Card';
-import NavLink from '@/components/header/NavLink';
+import NavLink from '@/components/links/NavLink';
 
-import Link from 'next/link';
-import IPost from '@/interfaces/IPost';
 import { GetStaticPropsContext } from 'next/types';
-import IRecipeCategory from '@/interfaces/IRecipeCategory';
 import IRecipePost from '@/interfaces/IRecipePost';
 
 import styles from '@/styles/CookbookPost.module.css'
-import cookbookStyles from '@/styles/CookbookIndex.module.css'
-
 
 const ThemeButton = dynamic(() => import('@/components/buttons/ThemeButton'), {
-    ssr: false,
-});
-
-const LanguageSelector = dynamic(() => import('@/components/buttons/LanguageSelector'), {
     ssr: false,
 });
 
@@ -117,39 +107,13 @@ export default function MarkdownPostListTemplate(props: { post: IRecipePost }) {
                     displayText="About"
                 />
                 <ThemeButton />
-                {/* <LanguageSelector /> */}
             </Header>
             <Main>
                 <div id={'top'}></div>
                 <Content className={['applyHeaderOffset', styles.cookbookPost].join(' ')}>
                     <Markdown options={{ wrapper: MarkdownSection, forceWrapper: true }}>{props.post.content}</Markdown>
                 </Content>
-                <Footer>
-                    <ScrollNavLink
-                        className={footerStyles.footerNavLink}
-                        elementName="https://majorenkidu.github.io/#heroPage"
-                        displayText="Home"
-                    />
-                    <ScrollNavLink
-                        className={footerStyles.footerNavLink}
-                        elementName="https://majorenkidu.github.io/#portfolioPage"
-                        displayText="Portfolio"
-                    />
-                    <ScrollNavLink
-                        className={footerStyles.footerNavLink}
-                        elementName="https://majorenkidu.github.io/#aboutPage"
-                        displayText="About"
-                    />
-                    <Link href={'https://github.com/MajorEnkidu'} className={footerStyles.footerNavLink}>GitHub</Link>
-                    <Link href={'https://www.linkedin.com/in/kyle-klus-9a2588275'} className={footerStyles.footerNavLink}>LinkedIn</Link>
-                    <Link href={'https://ko-fi.com/majorenkidu'} className={footerStyles.footerNavLink}>Ko-fi</Link>
-                    <Link href={'mailto:kyle.klus.2@gmail.com'} className={footerStyles.footerNavLink}>Contact</Link>
-                    <NavLink
-                        className={footerStyles.sideNavLink + ' ' + footerStyles.footerNavLink}
-                        pathName="https://majorenkidu.github.io/privacy"
-                        displayText="Privacy"
-                    />
-                </Footer>
+                <Footer/>
             </Main>
         </>
     );
@@ -222,7 +186,6 @@ export async function getStaticProps({ params }: GetStaticPropsContext) {
         created: frontmatter.created,
         content: fileContent,
     }
-
 
     return {
         props: {

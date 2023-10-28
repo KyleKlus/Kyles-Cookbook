@@ -20,6 +20,22 @@
     border-bottom: 1px solid var(--bg-color-40);
 }
 
+.cookbookLanguageIndex > * > * > ul li::marker {
+    content: "->";
+}
+
+.cookbookLanguageIndex > * > *:nth-child(2) {
+    width: 50%;
+    margin: 0 25%;
+    align-self: center;
+    justify-self: center;
+    padding-left: 50px;
+}
+
+.cookbookLanguageIndex > * > * > ul li > a {
+    margin-left: 8px;
+}
+
 
 
 .entry {

@@ -1,8 +1,5 @@
 /** @format */
 import fs from 'fs';
-import path from 'path';
-
-
 import Head from 'next/head';
 import Footer from '@/components/footer/Footer';
 import Header from '@/components/header/Header';
@@ -13,25 +10,19 @@ import Text from '@/components/Text';
 
 import headerStyles from '@/styles/components/header/Header.module.css'
 import styles from '@/styles/CookbookIndex.module.css'
-import footerStyles from '@/styles/components/footer/Footer.module.css'
 import sideNavStyles from '@/styles/components/header/SideNavigation.module.css'
 
-import ScrollNavLink from '@/components/header/ScrollNavLink';
+import ScrollNavLink from '@/components/links/ScrollNavLink';
 import dynamic from 'next/dynamic';
 
 import Link from 'next/link';
 import matter from 'gray-matter';
-import IPost from '@/interfaces/IPost';
 import Card from '@/components/Card';
-import NavLink from '@/components/header/NavLink';
+import NavLink from '@/components/links/NavLink';
 import IRecipePost from '@/interfaces/IRecipePost';
 import IRecipeCategory from '@/interfaces/IRecipeCategory';
 
 const ThemeButton = dynamic(() => import('@/components/buttons/ThemeButton'), {
-  ssr: false,
-});
-
-const LanguageSelector = dynamic(() => import('@/components/buttons/LanguageSelector'), {
   ssr: false,
 });
 
@@ -122,13 +113,12 @@ export default function MarkdownPostListTemplate(props: { posts: IRecipePost[], 
           displayText="About"
         />
         <ThemeButton />
-        {/* <LanguageSelector /> */}
       </Header>
       <Main>
         <div id={'top'} />
         <Content id='markdownSection' className={[styles.cookbookIndex, 'applyHeaderOffset'].join(' ')}>
           <Text>
-            <h1>Kyle&apos;s Cookbook</h1>
+          <h1>Kyle&apos;s Cookbook 🧑‍🍳</h1>
             {props.postCategories.map((category, i) => {
               const categoryPosts = props.posts.filter(post => post.categories.filter(postCategory => postCategory === category).length !== 0)
 
@@ -151,32 +141,7 @@ export default function MarkdownPostListTemplate(props: { posts: IRecipePost[], 
             })}
           </Text>
         </Content>
-        <Footer>
-          <ScrollNavLink
-            className={footerStyles.footerNavLink}
-            elementName="https://majorenkidu.github.io/#heroPage"
-            displayText="Home"
-          />
-          <ScrollNavLink
-            className={footerStyles.footerNavLink}
-            elementName="https://majorenkidu.github.io/#portfolioPage"
-            displayText="Portfolio"
-          />
-          <ScrollNavLink
-            className={footerStyles.footerNavLink}
-            elementName="https://majorenkidu.github.io/#aboutPage"
-            displayText="About"
-          />
-          <Link href={'https://github.com/MajorEnkidu'} className={footerStyles.footerNavLink}>GitHub</Link>
-          <Link href={'https://www.linkedin.com/in/kyle-klus-9a2588275'} className={footerStyles.footerNavLink}>LinkedIn</Link>
-          <Link href={'https://ko-fi.com/majorenkidu'} className={footerStyles.footerNavLink}>Ko-fi</Link>
-          <Link href={'mailto:kyle.klus.2@gmail.com'} className={footerStyles.footerNavLink}>Contact</Link>
-          <NavLink
-            className={footerStyles.sideNavLink + ' ' + footerStyles.footerNavLink}
-            pathName="https://majorenkidu.github.io/privacy"
-            displayText="Privacy"
-          />
-        </Footer>
+        <Footer/>
       </Main>
     </>
   );
