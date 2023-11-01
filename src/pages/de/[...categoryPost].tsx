@@ -66,7 +66,7 @@ export default function MarkdownPostListTemplate(props: { post: IRecipePost }) {
             <Header>
                 <ScrollNavLink
                     className={[headerStyles.headerNavLink].join(' ')}
-                    elementName="https://majorenkidu.github.io/#heroPage"
+                    elementName="https://kyleklus.github.io/#heroPage"
                     displayText="Home"
                 />
                 <ScrollNavLink
@@ -76,7 +76,7 @@ export default function MarkdownPostListTemplate(props: { post: IRecipePost }) {
                 />
                 <ScrollNavLink
                     className={[headerStyles.headerNavLink].join(' ')}
-                    elementName="https://majorenkidu.github.io/#aboutPage"
+                    elementName="https://kyleklus.github.io/#aboutPage"
                     displayText="Über mich"
                 />
                 <ThemeButton />

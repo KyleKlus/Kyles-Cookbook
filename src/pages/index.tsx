@@ -61,7 +61,7 @@ export default function Home(props: { posts: IRecipePost[], postCategories: stri
       <Header>
         <ScrollNavLink
           className={headerStyles.headerNavLink}
-          elementName="https://majorenkidu.github.io/#heroPage"
+          elementName="https://kyleklus.github.io/#heroPage"
           displayText="Home"
         />
         <ScrollNavLink
@@ -71,7 +71,7 @@ export default function Home(props: { posts: IRecipePost[], postCategories: stri
         />
         <ScrollNavLink
           className={headerStyles.headerNavLink}
-          elementName="https://majorenkidu.github.io/#aboutPage"
+          elementName="https://kyleklus.github.io/#aboutPage"
           displayText="About"
         />
         <ThemeButton />
