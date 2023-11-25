@@ -28,7 +28,7 @@ export default function Home(props: { posts: IRecipePost[], postCategories: stri
         <title>Kyle Klus | Cookbook 🧑‍🍳</title>
         <meta
           name="description"
-          content="Cookbook of Kyle Klus."
+          content="Cookbook of Kyle Klus"
         />
         <meta
           name="viewport"
