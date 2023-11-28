@@ -7,6 +7,7 @@ const nextConfig = {
   reactStrictMode: true,
   basePath: '/Kyles-Cookbook',
   output: 'export',
+  images: { unoptimized: true },
   env: {
     basePath: '/Kyles-Cookbook',
     // NEXT_PUBLIC_FIREBASE_API_KEY: 'AIzaSyAYytnWLc4vB2glt1X8tWz27gpgclDvrls',
