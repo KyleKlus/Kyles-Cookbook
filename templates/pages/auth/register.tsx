@@ -42,22 +42,26 @@ export default function Home() {
       authContext.googleSignIn();
     }
     catch (error) {
-      setErrorMsg('Wrong credentials');
+      setErrorMsg('Account already exists');
     }
   };
 
   const handleSignIn = async () => {
     try {
-      const userCredentials: UserCredential = await authContext.emailLogin(email, password);
+      const userCredentials: UserCredential = await authContext.emailRegister(email, password);
       if (userCredentials.user !== null) {
         setErrorMsg('');
         router.push(redirectPaths[RedirectPathOptions.LockedPage]);
       }
     }
     catch (error) {
-      setErrorMsg('Wrong credentials');
+      setErrorMsg('Account already exists or password too short');
     }
   };
+
+  if (user) {
+    router.push(redirectPaths[RedirectPathOptions.LockedPage]);
+  }
 
   return (
     <>
