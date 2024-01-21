@@ -3,10 +3,10 @@ import fs from 'fs';
 import Head from 'next/head';
 import Footer from '@/components/footer/Footer';
 import Header from '@/components/header/Header';
-import Content from '@/components/Content';
+import Content from '@/components/container/Content';
 
-import Main from '@/components/Main';
-import Text from '@/components/Text';
+import Main from '@/components/container/Main';
+import Text from '@/components/container/Text';
 
 import headerStyles from '@/styles/components/header/Header.module.css'
 import styles from '@/styles/CookbookIndex.module.css'
@@ -16,7 +16,7 @@ import dynamic from 'next/dynamic';
 
 import Link from 'next/link';
 import matter from 'gray-matter';
-import Card from '@/components/Card';
+import Card from '@/components/container/Card';
 import IRecipePost from '@/interfaces/IRecipePost';
 import IRecipeCategory from '@/interfaces/IRecipeCategory';
 
@@ -93,7 +93,7 @@ export default function MarkdownPostListTemplate(props: { posts: IRecipePost[], 
         <div id={'top'} />
         <Content id='markdownSection' className={[styles.cookbookIndex, 'applyHeaderOffset'].join(' ')}>
           <Text>
-          <h1>Kyle&apos;s Cookbook 🧑‍🍳</h1>
+            <h1>Kyle&apos;s Cookbook 🧑‍🍳</h1>
             {props.postCategories.map((category, i) => {
               const categoryPosts = props.posts.filter(post => post.categories.filter(postCategory => postCategory === category).length !== 0)
 
@@ -116,7 +116,7 @@ export default function MarkdownPostListTemplate(props: { posts: IRecipePost[], 
             })}
           </Text>
         </Content>
-        <Footer/>
+        <Footer />
       </Main>
     </>
   );

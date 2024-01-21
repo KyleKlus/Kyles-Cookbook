@@ -2,10 +2,10 @@
 import Head from 'next/head';
 import Footer from '@/components/footer/Footer';
 import Header from '@/components/header/Header';
-import Content from '@/components/Content';
+import Content from '@/components/container/Content';
 
-import Main from '@/components/Main';
-import Text from '@/components/Text';
+import Main from '@/components/container/Main';
+import Text from '@/components/container/Text';
 
 import headerStyles from '@/styles/components/header/Header.module.css'
 import styles from '@/styles/CookbookIndex.module.css'
@@ -13,7 +13,7 @@ import styles from '@/styles/CookbookIndex.module.css'
 import ScrollNavLink from '@/components/links/ScrollNavLink';
 import dynamic from 'next/dynamic';
 
-import Card from '@/components/Card';
+import Card from '@/components/container/Card';
 import NavLink from '@/components/links/NavLink';
 import IRecipePost from '@/interfaces/IRecipePost';
 
@@ -83,13 +83,13 @@ export default function Home(props: { posts: IRecipePost[], postCategories: stri
             <h1>Kyle&apos;s Cookbook 🧑‍🍳</h1>
             <Card>
               <ul>
-                <li><NavLink className={[styles.entryLink].join(' ')} pathName={'/en'} displayText={'English Version'}/></li>
-                <li><NavLink className={[styles.entryLink].join(' ')} pathName={'/de'} displayText={'German Version'}/></li>
+                <li><NavLink className={[styles.entryLink].join(' ')} pathName={'/en'} displayText={'English Version'} /></li>
+                <li><NavLink className={[styles.entryLink].join(' ')} pathName={'/de'} displayText={'German Version'} /></li>
               </ul>
             </Card>
           </Text>
         </Content>
-        <Footer/>
+        <Footer />
       </Main>
     </>
   );

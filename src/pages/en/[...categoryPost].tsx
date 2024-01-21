@@ -1,16 +1,16 @@
 /** @format */
 import fs from 'fs';
 import matter from 'gray-matter';
-import MarkdownSection from '@/components/MarkdownSection';
+import MarkdownSection from '@/components/markdown/MarkdownSection';
 import Markdown from 'markdown-to-jsx';
 
 
 import Head from 'next/head';
 import Footer from '@/components/footer/Footer';
 import Header from '@/components/header/Header';
-import Content from '@/components/Content';
+import Content from '@/components/container/Content';
 
-import Main from '@/components/Main';
+import Main from '@/components/container/Main';
 
 import headerStyles from '@/styles/components/header/Header.module.css'
 
@@ -21,6 +21,7 @@ import { GetStaticPropsContext } from 'next/types';
 import IRecipePost from '@/interfaces/IRecipePost';
 
 import styles from '@/styles/CookbookPost.module.css'
+import MarkdownImage from '@/components/markdown/MarkdownImage';
 
 const ThemeButton = dynamic(() => import('@/components/buttons/ThemeButton'), {
     ssr: false,
@@ -84,9 +85,17 @@ export default function MarkdownPostListTemplate(props: { post: IRecipePost }) {
             <Main>
                 <div id={'top'}></div>
                 <Content className={['applyHeaderOffset', styles.cookbookPost].join(' ')}>
-                    <Markdown options={{ wrapper: MarkdownSection, forceWrapper: true }}>{props.post.content}</Markdown>
+                    <Markdown options={{
+                        wrapper: MarkdownSection,
+                        overrides: {
+                            img: {
+                                component: MarkdownImage,
+                            },
+                        },
+                        forceWrapper: true
+                    }}>{props.post.content}</Markdown>
                 </Content>
-                <Footer/>
+                <Footer />
             </Main>
         </>
     );
